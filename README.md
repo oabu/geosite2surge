@@ -1,7 +1,7 @@
 # V2Ray Rules to Surge Ruleset Converter 🚀
 
-[![CI](https://github.com/username/geosite/actions/workflows/ci.yml/badge.svg)](https://github.com/username/geosite/actions/workflows/ci.yml)
-[![Auto Build](https://github.com/username/geosite/actions/workflows/auto-build.yml/badge.svg)](https://github.com/username/geosite/actions/workflows/auto-build.yml)
+[![CI](https://github.com/oabu/geosite2surge/actions/workflows/ci.yml/badge.svg)](https://github.com/oabu/geosite2surge/actions/workflows/ci.yml)
+[![Auto Build](https://github.com/oabu/geosite2surge/actions/workflows/auto-build.yml/badge.svg)](https://github.com/oabu/geosite2surge/actions/workflows/auto-build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
 
@@ -52,28 +52,28 @@
 
 | 规则名称 | 适用场景 | 规则集订阅链接（以 jsDelivr 为例） |
 | :--- | :--- | :--- |
-| **cn** | 中国大陆常见域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/cn.list` |
-| **geolocation-!cn** | 非中国大陆域名（代理） | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/geolocation-!cn.list` |
-| **gfw** | GFWList 屏蔽域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/gfw.list` |
-| **category-ads-all** | 广告与隐私追踪域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/category-ads-all.list` |
-| **apple** | Apple 服务域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/apple.list` |
-| **google** | Google 服务域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/google.list` |
-| **telegram** | Telegram 域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/telegram.list` |
-| **netflix** | Netflix 域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/netflix.list` |
-| **spotify** | Spotify 域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/spotify.list` |
-| **bilibili** | 哔哩哔哩域名 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/bilibili.list` |
-| **steam** | Steam 游戏平台 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/steam.list` |
+| **cn** | 中国大陆常见域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/cn.list` |
+| **geolocation-!cn** | 非中国大陆域名（代理） | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/geolocation-!cn.list` |
+| **gfw** | GFWList 屏蔽域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/gfw.list` |
+| **category-ads-all** | 广告与隐私追踪域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/category-ads-all.list` |
+| **apple** | Apple 服务域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/apple.list` |
+| **google** | Google 服务域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/google.list` |
+| **telegram** | Telegram 域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/telegram.list` |
+| **netflix** | Netflix 域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/netflix.list` |
+| **spotify** | Spotify 域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/spotify.list` |
+| **bilibili** | 哔哩哔哩域名 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/bilibili.list` |
+| **steam** | Steam 游戏平台 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/steam.list` |
 
 ### 常用 GeoIP 规则列表
 
 | 规则名称 | 适用场景 | 规则集订阅链接（以 jsDelivr 为例） |
 | :--- | :--- | :--- |
-| **cn** | 中国大陆 IP 地址段 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/cn.list` |
-| **telegram** | Telegram 专用 IP 地址段 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/telegram.list` |
-| **cloudflare** | Cloudflare CDN IP 段 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/cloudflare.list` |
-| **private** | 局域网私有 IP 地址 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/private.list` |
-| **us** | 美国 IP 地址段 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/us.list` |
-| **hk** | 香港 IP 地址段 | `https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/hk.list` |
+| **cn** | 中国大陆 IP 地址段 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/cn.list` |
+| **telegram** | Telegram 专用 IP 地址段 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/telegram.list` |
+| **cloudflare** | Cloudflare CDN IP 段 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/cloudflare.list` |
+| **private** | 局域网私有 IP 地址 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/private.list` |
+| **us** | 美国 IP 地址段 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/us.list` |
+| **hk** | 香港 IP 地址段 | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/hk.list` |
 
 ---
 
@@ -92,21 +92,21 @@ PROCESS-NAME,clash,DIRECT
 
 # 局域网与私网直接放行
 RULE-SET,LAN,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/private.list,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/private.list,DIRECT
 
 # 拦截广告
-RULE-SET,https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/category-ads-all.list,REJECT
+RULE-SET,https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/category-ads-all.list,REJECT
 
 # Apple / Google 直连或按需走代理
-RULE-SET,https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/apple.list,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/apple.list,DIRECT
 
 # 境外代理分流
-RULE-SET,https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/geolocation-!cn.list,PROXY
-RULE-SET,https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/telegram.list,PROXY
+RULE-SET,https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/geolocation-!cn.list,PROXY
+RULE-SET,https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/telegram.list,PROXY
 
 # 大陆直连分流
-RULE-SET,https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geosite/cn.list,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/<user>/<repo>@release/geoip/cn.list,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/cn.list,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geoip/cn.list,DIRECT
 
 # 兜底规则（未命中任何规则走代理）
 FINAL,PROXY,dns-failed
