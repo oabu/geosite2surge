@@ -517,48 +517,90 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       padding: 0 20px;
     }}
 
-    .grid {{
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-      gap: 16px;
-    }}
-
-    .card {{
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 16px;
-      box-shadow: var(--shadow-sm);
+    .rules-list {{
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+      gap: 8px;
     }}
 
-    .card:hover {{
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md);
-      border-color: var(--primary);
-    }}
-
-    .card-top {{
+    .rule-row {{
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 10px 16px;
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 8px;
+      gap: 16px;
+      transition: all 0.15s ease;
+      box-shadow: var(--shadow-sm);
     }}
 
-    .card-title-group {{
+    .rule-row:hover {{
+      background-color: var(--bg-card-hover);
+      border-color: var(--primary);
+      box-shadow: var(--shadow-md);
+    }}
+
+    .row-left {{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex: 1;
+      min-width: 0;
+    }}
+
+    .row-info {{
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 0;
+      flex: 1;
+    }}
+
+    .row-top-line {{
       display: flex;
       align-items: center;
       gap: 8px;
       flex-wrap: wrap;
     }}
 
-    .card-title {{
-      font-size: 16px;
+    .row-title {{
+      font-size: 14px;
       font-weight: 700;
       color: var(--text-main);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }}
+
+    .row-desc {{
+      font-size: 13px;
+      color: var(--text-sub);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 480px;
+    }}
+
+    .row-bottom-line {{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }}
+
+    .row-url {{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      color: var(--primary);
+      text-decoration: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 650px;
+      background: var(--bg-main);
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-color);
+      user-select: all;
     }}
 
     .badge {{
@@ -567,6 +609,7 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       padding: 2px 6px;
       border-radius: 4px;
       text-transform: uppercase;
+      flex-shrink: 0;
     }}
 
     .badge-geosite {{
@@ -582,6 +625,7 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
     .badge-rules {{
       background-color: var(--border-color);
       color: var(--text-sub);
+      flex-shrink: 0;
     }}
 
     .star-btn {{
@@ -591,6 +635,8 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       font-size: 18px;
       color: #cbd5e1;
       transition: color 0.15s, transform 0.1s;
+      flex-shrink: 0;
+      padding: 2px;
     }}
 
     .star-btn:hover {{
@@ -601,30 +647,32 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       color: var(--accent-star);
     }}
 
-    .card-desc {{
-      font-size: 13px;
-      color: var(--text-sub);
-      line-height: 1.5;
-      margin-bottom: 12px;
-      min-height: 38px;
-    }}
-
-    .card-url-box {{
-      background-color: var(--bg-main);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-sm);
-      padding: 6px 10px;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 11px;
-      color: var(--text-sub);
-      word-break: break-all;
-      margin-bottom: 12px;
-      user-select: all;
-    }}
-
-    .card-actions {{
+    .row-actions {{
       display: flex;
       gap: 8px;
+      flex-shrink: 0;
+      align-items: center;
+    }}
+
+    @media (max-width: 960px) {{
+      .rule-row {{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+      }}
+      .row-left {{
+        width: 100%;
+      }}
+      .row-actions {{
+        width: 100%;
+      }}
+      .row-desc {{
+        max-width: 100%;
+        white-space: normal;
+      }}
+      .row-url {{
+        max-width: 100%;
+      }}
     }}
 
     .action-btn {{
@@ -758,9 +806,9 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       <!-- Controls Row: Tabs, Search, Sort -->
       <div class="controls-row">
         <div class="tabs-group">
-          <button class="tab-btn active" data-tab="all" onclick="setTab('all')">全部 <span class="tab-count" id="countAll">0</span></button>
-          <button class="tab-btn" data-tab="geosite" onclick="setTab('geosite')">GeoSite <span class="tab-count" id="countGeosite">0</span></button>
+          <button class="tab-btn active" data-tab="geosite" onclick="setTab('geosite')">GeoSite <span class="tab-count" id="countGeosite">0</span></button>
           <button class="tab-btn" data-tab="geoip" onclick="setTab('geoip')">GeoIP <span class="tab-count" id="countGeoip">0</span></button>
+          <button class="tab-btn" data-tab="all" onclick="setTab('all')">全部 <span class="tab-count" id="countAll">0</span></button>
           <button class="tab-btn" data-tab="favorites" onclick="setTab('favorites')">⭐ 收藏 <span class="tab-count" id="countFav">0</span></button>
         </div>
 
@@ -782,7 +830,7 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
   </header>
 
   <main>
-    <div id="rulesGrid" class="grid"></div>
+    <div id="rulesList" class="rules-list"></div>
     <div class="pagination" id="pagination">
       <button class="page-btn" id="prevPageBtn" onclick="changePage(-1)">上一页</button>
       <span class="page-info" id="pageInfo">第 1 / 1 页</span>
@@ -796,8 +844,8 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
     // Embedded metadata directly generated from build
     const RAW_RULES = {items_json};
 
-    const PAGE_SIZE = 60;
-    let currentTab = 'all';
+    const PAGE_SIZE = 80;
+    let currentTab = 'geosite';
     let currentQuery = '';
     let currentSort = 'popular';
     let currentPage = 1;
@@ -917,7 +965,7 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
 
     // 4. Render Grid
     function renderGrid() {{
-      const container = document.getElementById('rulesGrid');
+      const container = document.getElementById('rulesList');
       const filtered = getFilteredList();
       const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
 
@@ -932,7 +980,7 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
           <div class="empty-state">
             <div class="empty-icon">📂</div>
             <h3>没有找到符合条件的规则集</h3>
-            <p style="margin-top: 6px; font-size: 13px;">请尝试更换关键词，或者在“全部”标签下查看。</p>
+            <p style="margin-top: 6px; font-size: 13px;">请尝试更换关键词，或者切换其他分类查看。</p>
           </div>
         `;
         document.getElementById('pageInfo').textContent = '第 0 / 0 页';
@@ -951,34 +999,34 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
           : '<span class="badge badge-geoip">GeoIP</span>';
 
         return `
-          <div class="card" data-id="${{item.id}}">
-            <div>
-              <div class="card-top">
-                <div class="card-title-group">
-                  <span class="card-title">${{item.name}}.list</span>
+          <div class="rule-row" data-id="${{item.id}}">
+            <div class="row-left">
+              <button class="star-btn ${{isFav ? 'active' : ''}}" onclick="toggleFavorite('${{item.id}}')" title="收藏/取消收藏">
+                ${{isFav ? '★' : '☆'}}
+              </button>
+              <div class="row-info">
+                <div class="row-top-line">
+                  <span class="row-title">${{item.name}}.list</span>
                   ${{typeBadge}}
                   <span class="badge badge-rules">${{item.rules.toLocaleString()}} 规则</span>
+                  <span class="row-desc" title="${{item.desc}}">${{item.desc}}</span>
                 </div>
-                <button class="star-btn ${{isFav ? 'active' : ''}}" onclick="toggleFavorite('${{item.id}}')" title="收藏/取消收藏">
-                  ${{isFav ? '★' : '☆'}}
-                </button>
+                <div class="row-bottom-line">
+                  <span class="row-url" title="访问直达 URL">${{fullUrl}}</span>
+                </div>
               </div>
-              <div class="card-desc">${{item.desc}}</div>
             </div>
 
-            <div>
-              <div class="card-url-box" title="访问直达 URL">${{fullUrl}}</div>
-              <div class="card-actions">
-                <button class="action-btn" onclick="copyText('${{fullUrl}}', '已复制规则集 URL')">
-                  📋 复制 URL
-                </button>
-                <button class="action-btn action-btn-primary" onclick="copySurgeRule('${{fullUrl}}')">
-                  ⚡ 复制 Surge 规则
-                </button>
-                <a href="${{fullUrl}}" target="_blank" class="action-btn" style="flex: 0 0 36px;" title="在新标签页中打开">
-                  ↗️
-                </a>
-              </div>
+            <div class="row-actions">
+              <button class="action-btn" onclick="copyText('${{fullUrl}}', '已复制规则集 URL')">
+                📋 复制 URL
+              </button>
+              <button class="action-btn action-btn-primary" onclick="copySurgeRule('${{fullUrl}}')">
+                ⚡ 复制 Surge 规则
+              </button>
+              <a href="${{fullUrl}}" target="_blank" class="action-btn" style="flex: 0 0 36px; padding: 6px;" title="在新标签页中打开">
+                ↗️
+              </a>
             </div>
           </div>
         `;
