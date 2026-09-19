@@ -771,6 +771,47 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       transform: translateY(0);
       opacity: 1;
     }}
+
+    .github-btn {{
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      padding: 5px 12px;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }}
+
+    .github-btn:hover {{
+      border-color: var(--primary);
+      color: var(--primary);
+      background: var(--primary-light);
+    }}
+
+    footer {{
+      margin-top: 50px;
+      padding: 30px 20px;
+      border-top: 1px solid var(--border-color);
+      background: var(--bg-card);
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-sub);
+    }}
+
+    footer a {{
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }}
+
+    footer a:hover {{
+      text-decoration: underline;
+    }}
   </style>
 </head>
 <body>
@@ -780,10 +821,21 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       <div class="title-row">
         <div class="title-group">
           <span class="logo-icon">⚡</span>
-          <h1>Surge 规则集导航中心</h1>
+          <div>
+            <h1>Surge 规则集导航中心</h1>
+            <div style="font-size: 12px; color: var(--text-sub); margin-top: 2px;">
+              由 <a href="https://github.com/oabu" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600;">@oabu</a> 维护构建
+            </div>
+          </div>
         </div>
-        <div class="stats-badge">
-          GeoSite: <strong>{total_geosite}</strong> | GeoIP: <strong>{total_geoip}</strong> | 规则总量: <strong>{total_rules:,}</strong>
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+          <div class="stats-badge">
+            GeoSite: <strong>{total_geosite}</strong> | GeoIP: <strong>{total_geoip}</strong> | 规则总量: <strong>{total_rules:,}</strong>
+          </div>
+          <a href="https://github.com/oabu/geosite2surge" target="_blank" class="github-btn" title="查看 GitHub 开源仓库">
+            <svg height="15" width="15" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: text-bottom;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            GitHub
+          </a>
         </div>
       </div>
 
@@ -838,6 +890,17 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       <button class="page-btn" id="nextPageBtn" onclick="changePage(1)">下一页</button>
     </div>
   </main>
+
+  <footer>
+    <p>
+      Surge 规则集导航中心 · 规则源自 <a href="https://github.com/Loyalsoldier/v2ray-rules-dat" target="_blank" rel="noopener noreferrer">Loyalsoldier/v2ray-rules-dat</a>
+    </p>
+    <p style="margin-top: 6px;">
+      维护者: <a href="https://github.com/oabu" target="_blank" rel="noopener noreferrer">@oabu</a> ·
+      开源仓库: <a href="https://github.com/oabu/geosite2surge" target="_blank" rel="noopener noreferrer">oabu/geosite2surge</a> ·
+      每日 GitHub Actions 自动更新部署
+    </p>
+  </footer>
 
   <div id="toast" class="toast">已成功复制到剪贴板</div>
 
