@@ -4,6 +4,7 @@ Generates a modern, interactive, single-page web catalog (index.html)
 for browsing, searching, and favoriting all GeoSite and GeoIP rulesets.
 """
 
+import datetime
 import json
 import os
 import re
@@ -243,7 +244,44 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Surge 规则集导航与订阅中心</title>
+  <title>Geosite &amp; GeoIP 转 Surge 规则集导航 | 每日自动更新 Surge Ruleset &amp; Domainset 订阅转换 - geosite2surge</title>
+  <meta name="description" content="全网最全的 Geosite 与 GeoIP 转 Surge 规则集导航中心。基于 Loyalsoldier/v2ray-rules-dat 每日全自动构建，将 1,500+ GeoSite 域名集与 260+ GeoIP IP 地址段转换为标准 Surge RULE-SET / DOMAIN-SET 规则文件 (.list)。提供在线极速搜索、关键词高亮、一键复制 Surge 配置及 GitHub / jsDelivr 多源加速。">
+  <meta name="keywords" content="geosite转surge, geoip转surge, geosite to surge, geoip to surge, surge规则, surge规则集, surge ruleset, surge domain-set, loyalsoldier surge, surge分流规则, surge分流, surge gfw, surge cn直连, surge广告拦截, oabu, geosite2surge">
+  <meta name="author" content="oabu">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://oabu.github.io/geosite2surge/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://oabu.github.io/geosite2surge/">
+  <meta property="og:title" content="Geosite &amp; GeoIP 转 Surge 规则集导航 | 每日自动更新">
+  <meta property="og:description" content="每日自动将最新 v2ray-rules-dat (Geosite &amp; GeoIP) 转换为标准 Surge 规则集 (.list)，收录 1,800+ 细分规则，支持一键搜索与快捷配置复制。">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:url" content="https://oabu.github.io/geosite2surge/">
+  <meta property="twitter:title" content="Geosite &amp; GeoIP 转 Surge 规则集导航">
+  <meta property="twitter:description" content="每日自动将最新 Geosite &amp; GeoIP 转换为标准 Surge 规则集 (.list)，支持一键复制 Surge 规则。">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Geosite & GeoIP 转 Surge 规则集导航中心",
+    "alternateName": ["geosite2surge", "Geosite 转 Surge", "GeoIP 转 Surge"],
+    "url": "https://oabu.github.io/geosite2surge/",
+    "description": "每日全自动将 Loyalsoldier/v2ray-rules-dat 的最新 GeoSite 域名集与 GeoIP 地址段转换为标准 Surge 规则集 (RULE-SET / DOMAIN-SET)。",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "iOS, macOS",
+    "author": {{
+      "@type": "Person",
+      "name": "oabu",
+      "url": "https://github.com/oabu"
+    }}
+  }}
+  </script>
+
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
   <style>
     :root {{
@@ -666,6 +704,10 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       .row-actions {{
         width: 100%;
       }}
+      .row-actions .action-btn {{
+        flex: 1;
+        white-space: nowrap;
+      }}
       .row-desc {{
         max-width: 100%;
         white-space: normal;
@@ -676,8 +718,9 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
     }}
 
     .action-btn {{
-      flex: 1;
-      padding: 6px 10px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      padding: 6px 12px;
       font-size: 12px;
       font-weight: 600;
       border-radius: var(--radius-sm);
@@ -685,11 +728,120 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       border: 1px solid var(--border-color);
       background-color: var(--bg-card);
       color: var(--text-main);
-      display: flex;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 4px;
+      gap: 5px;
       transition: all 0.15s;
+      text-decoration: none;
+      line-height: 1.4;
+    }}
+
+    mark.highlight {{
+      background-color: #fef08a;
+      color: #854d0e;
+      padding: 1px 3px;
+      border-radius: 3px;
+      font-weight: 700;
+    }}
+
+    @media (prefers-color-scheme: dark) {{
+      mark.highlight {{
+        background-color: rgba(234, 179, 8, 0.35);
+        color: #fef08a;
+      }}
+    }}
+
+    .seo-banner {{
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 12px 14px;
+      margin-bottom: 14px;
+    }}
+
+    .seo-badges {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }}
+
+    .seo-badge {{
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 20px;
+      background: var(--bg-main);
+      color: var(--text-sub);
+      border: 1px solid var(--border-color);
+    }}
+
+    .seo-desc {{
+      font-size: 12.5px;
+      color: var(--text-sub);
+      line-height: 1.6;
+    }}
+
+    .seo-desc strong {{
+      color: var(--text-main);
+    }}
+
+    .seo-guide-card {{
+      margin-top: 36px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+    }}
+
+    .seo-guide-card h2 {{
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }}
+
+    .guide-grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+    }}
+
+    .guide-box {{
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+    }}
+
+    .guide-box h3 {{
+      font-size: 13.5px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--primary);
+    }}
+
+    .guide-box p {{
+      font-size: 12.5px;
+      line-height: 1.6;
+      color: var(--text-sub);
+    }}
+
+    .guide-code {{
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      padding: 8px 10px;
+      border-radius: var(--radius-sm);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 11.5px;
+      color: var(--text-main);
+      margin-top: 8px;
+      white-space: pre-wrap;
+      word-break: break-all;
     }}
 
     .action-btn:hover {{
@@ -822,9 +974,9 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
         <div class="title-group">
           <span class="logo-icon">⚡</span>
           <div>
-            <h1>Surge 规则集导航中心</h1>
+            <h1>Geosite &amp; GeoIP 转 Surge 规则集导航</h1>
             <div style="font-size: 12px; color: var(--text-sub); margin-top: 2px;">
-              由 <a href="https://github.com/oabu" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600;">@oabu</a> 维护构建
+              基于 <a href="https://github.com/Loyalsoldier/v2ray-rules-dat" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; font-weight: 600;">Loyalsoldier/v2ray-rules-dat</a> 每日全自动更新 · 由 <a href="https://github.com/oabu" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; font-weight: 600;">@oabu</a> 维护
             </div>
           </div>
         </div>
@@ -832,10 +984,24 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
           <div class="stats-badge">
             GeoSite: <strong>{total_geosite}</strong> | GeoIP: <strong>{total_geoip}</strong> | 规则总量: <strong>{total_rules:,}</strong>
           </div>
-          <a href="https://github.com/oabu/geosite2surge" target="_blank" class="github-btn" title="查看 GitHub 开源仓库">
+          <a href="https://github.com/oabu/geosite2surge" target="_blank" rel="noopener noreferrer" class="github-btn" title="查看 GitHub 开源仓库">
             <svg height="15" width="15" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: text-bottom;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
             GitHub
           </a>
+        </div>
+      </div>
+
+      <!-- SEO Feature Banner -->
+      <div class="seo-banner">
+        <div class="seo-badges">
+          <span class="seo-badge">🔄 每日 07:00 自动更新</span>
+          <span class="seo-badge">📦 1,500+ GeoSite 域名集</span>
+          <span class="seo-badge">🌐 260+ GeoIP IP段</span>
+          <span class="seo-badge">⚡ 标准 Surge RULE-SET / DOMAIN-SET</span>
+          <span class="seo-badge">🚀 支持 GitHub Pages / jsDelivr 全球加速</span>
+        </div>
+        <div class="seo-desc">
+          本站定时将权威的 <strong>v2ray-rules-dat (Geosite &amp; GeoIP)</strong> 数据库编译转换为 <strong>Surge</strong> 适用的 <code>.list</code> 规则文件。覆盖大陆直连 (CN)、GFW 代理名单、广告与隐私拦截、国内外流媒体等 1,800+ 细分规则，支持在线检索、关键词高亮与一键复制配置。
         </div>
       </div>
 
@@ -889,6 +1055,43 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       <span class="page-info" id="pageInfo">第 1 / 1 页</span>
       <button class="page-btn" id="nextPageBtn" onclick="changePage(1)">下一页</button>
     </div>
+
+    <!-- SEO Guide & FAQ Section -->
+    <section class="seo-guide-card">
+      <h2>📖 Surge 规则集使用指南与常见配置 (FAQ)</h2>
+      <div class="guide-grid">
+        <div class="guide-box">
+          <h3>💡 什么是 Geosite / GeoIP 转 Surge 规则？</h3>
+          <p>
+            Geosite 和 GeoIP 是网络分流领域维护最广泛的域名和 IP 数据库。Surge 支持 <code>RULE-SET</code> 和 <code>DOMAIN-SET</code> 规则集语法。本站每日定时将上游最新数据转换为标准 Surge <code>.list</code> 规则文件，支持直接远程引用与自动更新。
+          </p>
+        </div>
+        <div class="guide-box">
+          <h3>⚡ Surge 基础分流配置示例</h3>
+          <div class="guide-code"># [Rule]
+# 1. 拦截全网广告与追踪
+RULE-SET,https://oabu.github.io/geosite2surge/geosite/category-ads-all.list,REJECT
+# 2. GFW 名单走代理
+RULE-SET,https://oabu.github.io/geosite2surge/geosite/gfw.list,PROXY
+# 3. 国内主流域名与 IP 直连
+RULE-SET,https://oabu.github.io/geosite2surge/geosite/cn.list,DIRECT
+RULE-SET,https://oabu.github.io/geosite2surge/geoip/cn.list,DIRECT,no-resolve
+FINAL,PROXY,dns-failed</div>
+        </div>
+        <div class="guide-box">
+          <h3>🛡️ 为什么 GeoIP 规则自带 no-resolve？</h3>
+          <p>
+            Surge 匹配 <code>IP-CIDR</code> 规则时，若缺少 <code>no-resolve</code> 标记，会对目标域名先行发起本地 DNS 解析，造成额外延迟并可能遭受 DNS 污染。本站导出的 GeoIP 规则默认带有 <code>no-resolve</code> 防污染优化。
+          </p>
+        </div>
+        <div class="guide-box">
+          <h3>🌐 多源 CDN 与全球高速分发</h3>
+          <p>
+            默认基准 URL 读取当前访问地址（GitHub Pages），亦可点击顶部按钮无缝切换为 <strong>jsDelivr CDN</strong> 或 <strong>GitHub Raw</strong>。根据当前网络环境自由选择，确保 Surge 在日常自动拉取规则时稳定高速。
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -1032,6 +1235,33 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       document.getElementById('countFav').textContent = favorites.size;
     }}
 
+    // Highlighting & Escaping Helpers
+    function escapeHtml(str) {{
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }}
+
+    function escapeRegex(str) {{
+      return str.replace(/[-/\\\\^$*+?.()|[\\]{{}}]/g, '\\\\$&');
+    }}
+
+    function highlightMatch(text, query) {{
+      if (!text) return '';
+      const safe = escapeHtml(text);
+      if (!query) return safe;
+      const terms = query.trim().split(/\\s+/).filter(Boolean);
+      if (terms.length === 0) return safe;
+      const pattern = terms.map(escapeRegex).join('|');
+      if (!pattern) return safe;
+      const regex = new RegExp(`(${{pattern}})`, 'gi');
+      return safe.replace(regex, '<mark class="highlight">$1</mark>');
+    }}
+
     // 4. Render Grid
     function renderGrid() {{
       const container = document.getElementById('rulesList');
@@ -1059,6 +1289,7 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
       }}
 
       const base = getBaseUrl();
+      const q = currentQuery.trim();
 
       container.innerHTML = pageItems.map(item => {{
         const isFav = favorites.has(item.id);
@@ -1066,6 +1297,10 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
         const typeBadge = item.type === 'geosite'
           ? '<span class="badge badge-geosite">GeoSite</span>'
           : '<span class="badge badge-geoip">GeoIP</span>';
+
+        const displayName = highlightMatch(item.name + '.list', q);
+        const displayDesc = highlightMatch(item.desc, q);
+        const displayUrl = highlightMatch(fullUrl, q);
 
         return `
           <div class="rule-row" data-id="${{item.id}}">
@@ -1075,13 +1310,13 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
               </button>
               <div class="row-info">
                 <div class="row-top-line">
-                  <span class="row-title">${{item.name}}.list</span>
+                  <span class="row-title">${{displayName}}</span>
                   ${{typeBadge}}
                   <span class="badge badge-rules">${{item.rules.toLocaleString()}} 规则</span>
-                  <span class="row-desc" title="${{item.desc}}">${{item.desc}}</span>
+                  <span class="row-desc" title="${{escapeHtml(item.desc)}}">${{displayDesc}}</span>
                 </div>
                 <div class="row-bottom-line">
-                  <span class="row-url" title="访问直达 URL">${{fullUrl}}</span>
+                  <span class="row-url" title="访问直达 URL">${{displayUrl}}</span>
                 </div>
               </div>
             </div>
@@ -1202,4 +1437,61 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
         f.write(html)
 
     print(f"[✓] Generated interactive web catalog: {output_html_path} ({len(items)} items)")
+
+    # Automatically generate robots.txt and sitemap.xml for SEO
+    generate_seo_files(dist_dir)
+
     return output_html_path
+
+
+def generate_seo_files(dist_dir: str, base_url: str = "https://oabu.github.io/geosite2surge/") -> None:
+    """Generate robots.txt and sitemap.xml for search engine crawlers (Google SEO)."""
+    os.makedirs(dist_dir, exist_ok=True)
+
+    # 1. robots.txt
+    robots_path = os.path.join(dist_dir, "robots.txt")
+    with open(robots_path, "w", encoding="utf-8") as f:
+        f.write(f"User-agent: *\nAllow: /\n\nSitemap: {base_url}sitemap.xml\n")
+
+    # 2. sitemap.xml
+    sitemap_path = os.path.join(dist_dir, "sitemap.xml")
+    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{base_url}</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{base_url}geosite/gfw.list</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{base_url}geosite/cn.list</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{base_url}geosite/category-ads-all.list</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{base_url}geoip/cn.list</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+"""
+    with open(sitemap_path, "w", encoding="utf-8") as f:
+        f.write(sitemap_xml)
+
+    print(f"[✓] Generated SEO files: {robots_path}, {sitemap_path}")
+
