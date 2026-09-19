@@ -1,0 +1,59 @@
+name: Auto Build & Release Surge Rules
+
+on:
+  schedule:
+    # Runs at 23:00 UTC every day (07:00 Beijing Time UTC+8, right after Loyalsoldier daily build)
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set environment variables
+        run: |
+          echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
+          echo "RELEASE_NAME=Surge Rules Release $(date +%Y%m%d)" >> $GITHUB_ENV
+
+      - name: Run Converter (Download & Convert)
+        run: |
+          python3 convert.py --download --output-dir dist --format both
+
+      - name: Archive Rules to Zip
+        run: |
+          cd dist
+          zip -r ../surge-rules.zip .
+          cd ..
+
+      - name: Deploy to release branch
+        run: |
+          cd dist
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b release
+          git add -A
+          git commit -m "Auto update Surge rules: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push -f origin release
+          cd ..
+
+      - name: Create GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${TAG_NAME}" surge-rules.zip \
+            --title "${RELEASE_NAME}" \
+            --notes "Automated build of Surge rulesets from Loyalsoldier/v2ray-rules-dat at $(date -u +'%Y-%m-%d %H:%M:%S UTC')."
