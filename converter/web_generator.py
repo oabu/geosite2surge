@@ -793,8 +793,9 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
           <span>🌐 订阅基准 URL (默认读取当前浏览器访问地址)</span>
           <div class="presets-row">
             <button class="preset-btn" onclick="applyPreset('current')">当前访问地址</button>
-            <button class="preset-btn" onclick="applyPreset('jsdelivr')">jsDelivr 模板</button>
-            <button class="preset-btn" onclick="applyPreset('raw')">GitHub Raw 模板</button>
+            <button class="preset-btn" onclick="applyPreset('pages')">GitHub Pages</button>
+            <button class="preset-btn" onclick="applyPreset('jsdelivr')">jsDelivr CDN</button>
+            <button class="preset-btn" onclick="applyPreset('raw')">GitHub Raw</button>
           </div>
         </div>
         <div class="base-url-input-group">
@@ -908,13 +909,18 @@ def generate_html_catalog(dist_dir: str, output_html_path: str) -> str:
     function applyPreset(type) {{
       if (type === 'current') {{
         baseUrlInput.value = computeDefaultBaseUrl();
+        showToast('已恢复为当前访问地址');
+      }} else if (type === 'pages') {{
+        baseUrlInput.value = 'https://oabu.github.io/geosite2surge/';
+        showToast('已应用 GitHub Pages 基准 URL');
       }} else if (type === 'jsdelivr') {{
-        baseUrlInput.value = 'https://cdn.jsdelivr.net/gh/<username>/<repo>@release/';
+        baseUrlInput.value = 'https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/';
+        showToast('已应用 jsDelivr CDN 基准 URL');
       }} else if (type === 'raw') {{
-        baseUrlInput.value = 'https://raw.githubusercontent.com/<username>/<repo>/release/';
+        baseUrlInput.value = 'https://raw.githubusercontent.com/oabu/geosite2surge/release/';
+        showToast('已应用 GitHub Raw 基准 URL');
       }}
       localStorage.setItem('surge_rules_base_url', baseUrlInput.value);
-      showToast('已应用预设基准 URL，请按需修改用户名和仓库名');
       renderGrid();
     }}
 

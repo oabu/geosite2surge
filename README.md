@@ -35,14 +35,15 @@
 
 ## 📦 规则订阅地址说明
 
-发布到 GitHub 后，生成的规则集存放在 `release` 分支中。你可以使用以下两种链接在 Surge 中引用：
+本项目规则集已正式发布在 GitHub 的 `release` 分支中，提供以下三种可用订阅直链：
 
-| 链接类型 | URL 格式示例 | 说明 |
+| 链接类型 | 订阅 URL 格式 | 说明 |
 | :--- | :--- | :--- |
-| **GitHub Raw** | `https://raw.githubusercontent.com/<用户名>/<仓库名>/release/geosite/<分类>.list` | 官方原始链接，更新即时 |
-| **jsDelivr CDN** | `https://cdn.jsdelivr.net/gh/<用户名>/<仓库名>@release/geosite/<分类>.list` | 国内高速加速，有少许缓存延迟 |
+| **GitHub Pages** | `https://oabu.github.io/geosite2surge/geosite/<分类>.list` | 专属在线规则直链与导航中心 |
+| **jsDelivr CDN** | `https://cdn.jsdelivr.net/gh/oabu/geosite2surge@release/geosite/<分类>.list` | 国内高速 CDN 加速，更新有数小时缓存延迟 |
+| **GitHub Raw** | `https://raw.githubusercontent.com/oabu/geosite2surge/release/geosite/<分类>.list` | 官方原始直连，更新即时 |
 
-> 💡 **提示**：将链接中的 `<用户名>/<仓库名>` 替换为您自己的 GitHub 仓库路径即可。
+> 🌐 **在线可视化规则导航站**：[https://oabu.github.io/geosite2surge/](https://oabu.github.io/geosite2surge/) (需在仓库 Settings -> Pages 开启 release 分支托管)
 
 ---
 
@@ -122,7 +123,7 @@ FINAL,PROXY,dns-failed
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/<你的用户名>/<你的仓库名>.git
+   git remote add origin https://github.com/oabu/geosite2surge.git
    git push -u origin main
    ```
 
