@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:bitauto
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,bitauto.com
+DOMAIN-SUFFIX,bitautoimg.com
+DOMAIN-SUFFIX,cheyisou.com
+DOMAIN-SUFFIX,yccdn.com
+DOMAIN-SUFFIX,yiche.com

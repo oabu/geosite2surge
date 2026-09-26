@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:aliyun-drive
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,alicloudccp.com
+DOMAIN-SUFFIX,alipan.com
+DOMAIN-SUFFIX,aliyundrive.cloud
+DOMAIN-SUFFIX,aliyundrive.com
+DOMAIN-SUFFIX,aliyundrive.net
+DOMAIN-SUFFIX,yunpan.aliyun.com

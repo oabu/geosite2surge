@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:signal
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,signal.art
+DOMAIN-SUFFIX,signal.group
+DOMAIN-SUFFIX,signal.link
+DOMAIN-SUFFIX,signal.me
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,signal.tube
+DOMAIN-SUFFIX,signalusers.org
+DOMAIN-SUFFIX,whispersystems.org

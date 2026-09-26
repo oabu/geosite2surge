@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:chinaso
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,chinaso.com
+DOMAIN-SUFFIX,pg0.cn

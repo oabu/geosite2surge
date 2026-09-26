@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:bahamut
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,bahamut.akamaized.net
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN,gamer2-cds.cdn.hinet.net

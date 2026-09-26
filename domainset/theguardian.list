@@ -1,0 +1,14 @@
+# Title: Surge DOMAIN-SET - geosite:theguardian
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+.dev-guardianapis.com
+.dev-theguardian.com
+.gu-web.net
+.guardianapis.com
+.guardianapps.co.uk
+.guim.co.uk
+.guimcode.co.uk
+.theguardian.com
+.theguardiandns.com

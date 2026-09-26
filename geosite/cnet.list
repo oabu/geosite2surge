@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:cnet
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,cnet.co.kr
+DOMAIN-SUFFIX,cnet.com
+DOMAIN-SUFFIX,cnet.de
+DOMAIN-SUFFIX,cnetfrance.fr
+DOMAIN-SUFFIX,download.com

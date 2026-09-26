@@ -1,0 +1,16 @@
+# Title: Surge RULE-SET - geosite:category-android-app-download
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 11
+#
+DOMAIN-SUFFIX,apkcombo.com
+DOMAIN-SUFFIX,apkmirror.com
+DOMAIN-SUFFIX,apkpure.com
+DOMAIN-SUFFIX,apkpure.net
+DOMAIN-SUFFIX,apkpures.xyz
+DOMAIN-SUFFIX,cdnpure.com
+DOMAIN-SUFFIX,pureapk.com
+DOMAIN-SUFFIX,uptodown.com
+DOMAIN-SUFFIX,utdstc.com
+DOMAIN-SUFFIX,winudf.com
+DOMAIN,apkmirror.disqus.com

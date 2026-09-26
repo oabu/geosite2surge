@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:hsbc-cn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,hsbc.com.cn
+DOMAIN-SUFFIX,hsbcinsurance.com.cn
+DOMAIN-SUFFIX,hsbcqh.com.cn

@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:taylorfrancis
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,tandf.co.uk
+DOMAIN-SUFFIX,tandfonline.com
+DOMAIN-SUFFIX,taylorandfrancis.com
+DOMAIN-SUFFIX,taylorfrancis.com

@@ -1,0 +1,17 @@
+# Title: Surge DOMAIN-SET - geosite:reddit
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 12
+#
+.redd.it
+.reddit.app.link
+.reddit.com
+.reddit.map.fastly.net
+.redditblog.com
+.reddithelp.com
+.redditinc.com
+.redditmail.com
+.redditmedia.com
+.redditspace.com
+.redditstatic.com
+.redditstatus.com

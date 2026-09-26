@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:mixi
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,mixi.co.jp
+DOMAIN-SUFFIX,mixi.jp
+DOMAIN-SUFFIX,mixi.net

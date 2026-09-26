@@ -1,0 +1,20 @@
+# Title: Surge DOMAIN-SET - geosite:tencent-dev
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 15
+#
+.badjs.weixinbridge.com
+.cnb.cool
+.coding.me
+.coding.net
+.openmidas.com
+.qq.design
+.qqgamedesign.com
+.tencent-cloud.cn
+.tencent-cloud.com
+.tencent.design
+.tencentcloud.com
+.tjstats.com
+.wegamedeveloper.com
+.weixinbridge.com
+.weui.io

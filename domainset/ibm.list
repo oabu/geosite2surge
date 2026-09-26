@@ -1,0 +1,25 @@
+# Title: Surge DOMAIN-SET - geosite:ibm
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 20
+#
+.appdomain.cloud
+.bluemix.com
+.bluemix.net
+.consul.io
+.hashicorp.com
+.ibm
+.ibm.com
+.ibm.eu
+.ibm.net
+.ibm.us
+.nomadproject.io
+.packer.io
+.s-bluemix.net
+.s81c.com
+.terraform.io
+.vagrantcloud.com
+.vagrantup.com
+.vaultproject.io
+.weather
+.weatherchannel

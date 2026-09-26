@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:farfetch
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+.farfetch-apps.com
+.farfetch-contents.com
+.farfetch.cn
+.farfetch.com
+.farfetch.com.cn
+.farfetch.net
+.farfetch.net.cn
+.fflnk.net

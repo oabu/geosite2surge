@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:zhangtao
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,accuratead.cn
+DOMAIN-SUFFIX,dutils.com
+DOMAIN-SUFFIX,hiaiabc.com
+DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,mobsdks.com
+DOMAIN-SUFFIX,sharesdk.cn
+DOMAIN-SUFFIX,tec73.com
+DOMAIN-SUFFIX,yksdks.com

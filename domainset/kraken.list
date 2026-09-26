@@ -1,0 +1,7 @@
+# Title: Surge DOMAIN-SET - geosite:kraken
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 2
+#
+.kraken.com
+.kraken.onl

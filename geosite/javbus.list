@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:javbus
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,javbus.com
+DOMAIN-SUFFIX,javbus22.com
+DOMAIN-SUFFIX,javcdn.cc

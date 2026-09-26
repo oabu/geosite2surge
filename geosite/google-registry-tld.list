@@ -1,0 +1,25 @@
+# Title: Surge RULE-SET - geosite:google-registry-tld
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 20
+#
+DOMAIN-SUFFIX,app
+DOMAIN-SUFFIX,boo
+DOMAIN-SUFFIX,dad
+DOMAIN-SUFFIX,day
+DOMAIN-SUFFIX,dev
+DOMAIN-SUFFIX,esq
+DOMAIN-SUFFIX,foo
+DOMAIN-SUFFIX,how
+DOMAIN-SUFFIX,ing
+DOMAIN-SUFFIX,meme
+DOMAIN-SUFFIX,mov
+DOMAIN-SUFFIX,new
+DOMAIN-SUFFIX,nexus
+DOMAIN-SUFFIX,page
+DOMAIN-SUFFIX,phd
+DOMAIN-SUFFIX,prof
+DOMAIN-SUFFIX,rsvp
+DOMAIN-SUFFIX,soy
+DOMAIN-SUFFIX,xn--q9jyb4c
+DOMAIN-SUFFIX,zip

@@ -1,0 +1,14 @@
+# Title: Surge RULE-SET - geosite:wix
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+DOMAIN-SUFFIX,editorx.com
+DOMAIN-SUFFIX,parastorage.com
+DOMAIN-SUFFIX,wix-code.com
+DOMAIN-SUFFIX,wix.com
+DOMAIN-SUFFIX,wixanswers.com
+DOMAIN-SUFFIX,wixapps.net
+DOMAIN-SUFFIX,wixmp.com
+DOMAIN-SUFFIX,wixsite.com
+DOMAIN-SUFFIX,wixstatic.com

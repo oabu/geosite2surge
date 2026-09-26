@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:blender
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,bigbuckbunny.org
+DOMAIN-SUFFIX,blender.org
+DOMAIN-SUFFIX,elephantsdream.org

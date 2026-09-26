@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:japonx
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,x18r.co
+DOMAIN-SUFFIX,x18r.com
+DOMAIN-SUFFIX,z18r.co
+DOMAIN-SUFFIX,z18r.com

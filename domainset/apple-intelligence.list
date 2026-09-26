@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:apple-intelligence
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+apple-relay.apple.com
+apple-relay.cloudflare.com
+apple-relay.fastly-edge.com
+apple-relay.mask.apple-dns.net
+gspe1-ssl.ls.apple.com

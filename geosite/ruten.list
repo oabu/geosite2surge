@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:ruten
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,rimg.com.tw
+DOMAIN-SUFFIX,ruten.com.tw

@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:certum
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,certum.pl
+DOMAIN-SUFFIX,ocsp-certum.com
+DOMAIN-SUFFIX,ocsp-responder.com

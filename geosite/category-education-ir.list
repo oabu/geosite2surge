@@ -1,0 +1,15 @@
+# Title: Surge RULE-SET - geosite:category-education-ir
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 10
+#
+DOMAIN-SUFFIX,done.ir
+DOMAIN-SUFFIX,faradars.org
+DOMAIN-SUFFIX,git.ir
+DOMAIN-SUFFIX,iranlms.org
+DOMAIN-SUFFIX,learnby.ir
+DOMAIN-SUFFIX,maktabkhooneh.org
+DOMAIN-SUFFIX,melotar.com
+DOMAIN-SUFFIX,newdars.com
+DOMAIN-SUFFIX,toplearn.com
+DOMAIN-SUFFIX,webinarplus.online

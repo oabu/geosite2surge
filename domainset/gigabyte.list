@@ -1,0 +1,12 @@
+# Title: Surge DOMAIN-SET - geosite:gigabyte
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+.aorus.com
+.aoruszone.cn
+.gigabyte.cn
+.gigabyte.com
+gigabyte2.azureedge.net
+sa78gs.wpc.edgecastcdn.net
+sni1dcb6gl.wpc.edgecastcdn.net

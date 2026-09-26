@@ -1,0 +1,14 @@
+# Title: Surge DOMAIN-SET - geosite:snap
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+.sc-cdn.net
+.sc-gw.com
+.sc-static.net
+.snap-dev.net
+.snap.com
+.snapads.com
+.snapchat.com
+.snapkit.co
+impala-media-production.s3.amazonaws.com

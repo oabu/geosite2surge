@@ -1,0 +1,15 @@
+# Title: Surge RULE-SET - geosite:dji
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 10
+#
+DOMAIN-SUFFIX,dji.com
+DOMAIN-SUFFIX,dji.ink
+DOMAIN-SUFFIX,dji.net
+DOMAIN-SUFFIX,djicdn.com
+DOMAIN-SUFFIX,djigate.com
+DOMAIN-SUFFIX,djiits.com
+DOMAIN-SUFFIX,djiops.com
+DOMAIN-SUFFIX,djiservice.org
+DOMAIN-SUFFIX,robomaster.com
+DOMAIN-SUFFIX,skypixel.com

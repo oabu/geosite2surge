@@ -1,0 +1,9 @@
+# Title: Surge DOMAIN-SET - geosite:zb
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+.zb.app
+.zb.com
+.zb.io
+.zb.live

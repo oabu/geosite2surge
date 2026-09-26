@@ -1,0 +1,15 @@
+# Title: Surge DOMAIN-SET - geosite:netlify
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 10
+#
+.bitballoon.com
+.netlify.app
+.netlify.com
+.netlifydns.com
+.netlifystatus.com
+.netlifyusercontent.com
+.ntl.fyi
+acd89244c803f7181.awsglobalaccelerator.com
+afa7f374f51cc8991.awsglobalaccelerator.com
+d33wubrfki0l68.cloudfront.net

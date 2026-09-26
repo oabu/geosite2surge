@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:golang
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+.go-lang.com
+.go-lang.net
+.go-lang.org
+.go.dev
+.godoc.org
+.golang.com
+.golang.net
+.golang.org

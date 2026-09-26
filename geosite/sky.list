@@ -1,0 +1,18 @@
+# Title: Surge RULE-SET - geosite:sky
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 13
+#
+DOMAIN-SUFFIX,cn-cdn1.skymansion.net
+DOMAIN-SUFFIX,sky
+DOMAIN-SUFFIX,sky.com
+DOMAIN-SUFFIX,skyassets.com
+DOMAIN-SUFFIX,skymansion.net
+DOMAIN-SUFFIX,skyoceanrescue.com
+DOMAIN-SUFFIX,skyoceanrescue.de
+DOMAIN-SUFFIX,skyoceanrescue.it
+DOMAIN-SUFFIX,skysports.com
+DOMAIN-SUFFIX,skysports.fr
+DOMAIN-SUFFIX,skysports.ie
+DOMAIN-SUFFIX,skysportsonline.com
+DOMAIN-SUFFIX,skysportsracing.com

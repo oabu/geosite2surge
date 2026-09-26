@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:cityu-hk
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,cityu.edu.hk
+DOMAIN-SUFFIX,cityu.hk
+DOMAIN-SUFFIX,xn----fr0b94b15d2ue8q7a1o3e.xn--wcvs22d.xn--j6w193g
+DOMAIN-SUFFIX,xn--uis44a.xn--j6w193g

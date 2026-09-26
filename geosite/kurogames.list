@@ -1,0 +1,18 @@
+# Title: Surge RULE-SET - geosite:kurogames
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 13
+#
+DOMAIN-SUFFIX,aki-game.com
+DOMAIN-SUFFIX,aki-game.net
+DOMAIN-SUFFIX,aki-game2.com
+DOMAIN-SUFFIX,aki-game2.net
+DOMAIN-SUFFIX,kurobbs.com
+DOMAIN-SUFFIX,kurogame-service.com
+DOMAIN-SUFFIX,kurogame.com
+DOMAIN-SUFFIX,kurogame.net
+DOMAIN-SUFFIX,kurogame.xyz
+DOMAIN-SUFFIX,kurogames-ads.com
+DOMAIN-SUFFIX,kurogames.com
+DOMAIN-SUFFIX,kurogames.net
+DOMAIN-SUFFIX,wutheringwaves.cn

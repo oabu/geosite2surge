@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:jibencaozuo
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,jbcz.tv
+DOMAIN-SUFFIX,jibencaozuo.com
+DOMAIN-SUFFIX,media.paperclipclub.net

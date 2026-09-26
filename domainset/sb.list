@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:sb
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+.dns.sb
+.ip.gs
+.ip.sb
+.loli.net
+.sb.sb
+.sm.ms
+.u.nu
+.www.sb

@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:redtube
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,livehdcams.com
+DOMAIN-SUFFIX,rdtcdn.com
+DOMAIN-SUFFIX,redtube.com
+DOMAIN-SUFFIX,redtube.com.br
+DOMAIN-SUFFIX,redtubepremium.com

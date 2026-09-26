@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:docker
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.compose-spec.io
+.docker.com
+.docker.io
+.dockerstatic.com
+docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
+docker-pinata-support.s3.amazonaws.com

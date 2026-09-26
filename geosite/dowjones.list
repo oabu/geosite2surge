@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:dowjones
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,djreprints.com
+DOMAIN-SUFFIX,dowjones.com
+DOMAIN-SUFFIX,dowjones.io
+DOMAIN-SUFFIX,dowjoneson.com

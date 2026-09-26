@@ -1,0 +1,17 @@
+# Title: Surge DOMAIN-SET - geosite:heroku
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 12
+#
+.codei.sh
+.codeish.co
+.codeish.io
+.heroku-app.com
+.heroku-charge.com
+.heroku.co
+.heroku.com
+.heroku.me
+.herokuapp.com
+.herokucdn.com
+.herokucharge.com
+.herokussl.com

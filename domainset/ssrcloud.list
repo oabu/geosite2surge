@@ -1,0 +1,8 @@
+# Title: Surge DOMAIN-SET - geosite:ssrcloud
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+.airport-gov-cn.com
+.cnix-gov-cn.com
+.xn--d4ty0ojsqzfd.com

@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:sto-express
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.sto-express.cn
+.sto-express.com
+.sto-express.com.cn
+.sto.cn
+.stointl.com
+.stosolution.com

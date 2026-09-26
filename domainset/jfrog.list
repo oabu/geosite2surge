@@ -1,0 +1,9 @@
+# Title: Surge DOMAIN-SET - geosite:jfrog
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+.bintray.com
+.jfrog.com
+.jfrog.org
+d29vzk4ow07wi7.cloudfront.net

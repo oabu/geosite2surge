@@ -1,0 +1,14 @@
+# Title: Surge RULE-SET - geosite:yundaex
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+DOMAIN-SUFFIX,udalogistic.cn
+DOMAIN-SUFFIX,udalogistic.com
+DOMAIN-SUFFIX,ydsys.cn
+DOMAIN-SUFFIX,yunda56.com
+DOMAIN-SUFFIX,yundaex.cn
+DOMAIN-SUFFIX,yundaex.com
+DOMAIN-SUFFIX,yundalog.com
+DOMAIN-SUFFIX,yundaltl.com
+DOMAIN-SUFFIX,yundasys.com

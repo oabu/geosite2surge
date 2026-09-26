@@ -1,0 +1,8 @@
+# Title: Surge DOMAIN-SET - geosite:jetbrains-ai
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+.grazie.ai
+.grazie.aws.intellij.net
+.jetbrains.ai

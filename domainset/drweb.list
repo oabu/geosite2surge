@@ -1,0 +1,17 @@
+# Title: Surge DOMAIN-SET - geosite:drweb
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 12
+#
+.drweb-av.de
+.drweb-av.es
+.drweb-av.it
+.drweb-av.pl
+.drweb.by
+.drweb.cn
+.drweb.co.jp
+.drweb.com
+.drweb.fr
+.drweb.kz
+.drweb.ru
+.drweb.uz

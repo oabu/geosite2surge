@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:chatwhores
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,chatwhores.com
+DOMAIN-SUFFIX,chatwhores.net
+DOMAIN-SUFFIX,chatwhores.org
+DOMAIN-SUFFIX,chatwhores.sex
+DOMAIN-SUFFIX,chatwhores.tv

@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:braveux
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,braventures.com
+DOMAIN-SUFFIX,braveux.com
+DOMAIN-SUFFIX,compass.is
+DOMAIN-SUFFIX,fightforux.com
+DOMAIN-SUFFIX,forthebadge.com
+DOMAIN-SUFFIX,stockagainstphotography.com

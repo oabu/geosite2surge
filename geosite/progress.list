@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:progress
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,chef.io
+DOMAIN-SUFFIX,getfiddler.com
+DOMAIN-SUFFIX,kemptechnologies.com
+DOMAIN-SUFFIX,progress.com
+DOMAIN-SUFFIX,sharefile.com
+DOMAIN-SUFFIX,telerik.com

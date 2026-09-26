@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:moji
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,ad.api.moji.com
+DOMAIN-SUFFIX,airnut.com
+DOMAIN-SUFFIX,moji.com
+DOMAIN-SUFFIX,moji001.com
+DOMAIN-SUFFIX,moji002.com
+DOMAIN-SUFFIX,mojicdn.com
+DOMAIN-SUFFIX,mojichina.com

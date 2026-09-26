@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:anthropic
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 8
+#
+.anthropic.com
+.clau.de
+.claude.ai
+.claude.com
+.claudemcpclient.com
+.claudemcpcontent.com
+.claudeusercontent.com
+servd-anthropic-website.b-cdn.net

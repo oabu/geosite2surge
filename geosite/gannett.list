@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:gannett
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,gannett-cdn.com
+DOMAIN-SUFFIX,gannett.com
+DOMAIN-SUFFIX,gannettdigital.com
+DOMAIN-SUFFIX,usatoday.com
+DOMAIN-SUFFIX,usatodaynetworkservice.com

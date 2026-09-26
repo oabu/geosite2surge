@@ -1,0 +1,8 @@
+# Title: Surge DOMAIN-SET - geosite:ymtc
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+.ymtc.cn
+.ymtc.com
+.ymtc.com.cn

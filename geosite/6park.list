@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:6park
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,6park.com
+DOMAIN-SUFFIX,6parkbbs.com
+DOMAIN-SUFFIX,6parknews.com
+DOMAIN-SUFFIX,cool18.com
+DOMAIN-SUFFIX,parkvv.com
+DOMAIN-SUFFIX,popo8.com
+DOMAIN-SUFFIX,xwbo.com

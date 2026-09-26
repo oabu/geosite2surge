@@ -1,0 +1,16 @@
+# Title: Surge RULE-SET - geosite:iflytek
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 11
+#
+DOMAIN-SUFFIX,changyan.com
+DOMAIN-SUFFIX,ets100.com
+DOMAIN-SUFFIX,iflyink.com
+DOMAIN-SUFFIX,iflyrec.com
+DOMAIN-SUFFIX,iflysec.com
+DOMAIN-SUFFIX,iflytek.com
+DOMAIN-SUFFIX,voicecloud.cn
+DOMAIN-SUFFIX,xfyun.cn
+DOMAIN-SUFFIX,xunfei.cn
+DOMAIN-SUFFIX,xunfeixxj.com
+DOMAIN-SUFFIX,zhixue.com

@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:quora
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.poe.com
+.poecdn.net
+.qr.ae
+.quora.com
+.quoracdn.net
+www.quora.com.cdn.cloudflare.net

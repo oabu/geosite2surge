@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:technogym
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,letsmoveforabetterworld.com
+DOMAIN-SUFFIX,technogym.bg
+DOMAIN-SUFFIX,technogym.ch
+DOMAIN-SUFFIX,technogym.com
+DOMAIN-SUFFIX,technogym.com.br
+DOMAIN-SUFFIX,technogym.ru
+DOMAIN-SUFFIX,technogym.su
+DOMAIN-SUFFIX,wellnessinstitute.com

@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:focuschina
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.focuschina.com
+.made-in-china.com
+.micstatic.com
+.trademessenger.com
+.vemic.com

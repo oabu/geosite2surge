@@ -1,0 +1,21 @@
+# Title: Surge DOMAIN-SET - geosite:dropbox
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 16
+#
+.db.tt
+.dropbox-dns.com
+.dropbox.com
+.dropbox.tech
+.dropboxapi.com
+.dropboxbusiness.com
+.dropboxcaptcha.com
+.dropboxforum.com
+.dropboxforums.com
+.dropboxinsiders.com
+.dropboxmail.com
+.dropboxpartners.com
+.dropboxstatic.com
+.dropboxusercontent.com
+.getdropbox.com
+paper-attachments.s3.amazonaws.com

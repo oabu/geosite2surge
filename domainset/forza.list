@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:forza
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.forza.net
+.forzamotorsport.net
+.forzaracingchampionship.com
+.forzarc.com
+prodforza.blob.core.windows.net

@@ -1,0 +1,14 @@
+# Title: Surge RULE-SET - geosite:cnn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+DOMAIN-SUFFIX,cnn.com
+DOMAIN-SUFFIX,cnn.io
+DOMAIN-SUFFIX,cnn.it
+DOMAIN-SUFFIX,cnnarabic.com
+DOMAIN-SUFFIX,cnnlabs.com
+DOMAIN-SUFFIX,cnnmoney.ch
+DOMAIN-SUFFIX,cnnmoney.com
+DOMAIN-SUFFIX,cnnmoneystream.com
+DOMAIN-SUFFIX,cnnpolitics.com

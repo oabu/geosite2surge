@@ -1,0 +1,17 @@
+# Title: Surge RULE-SET - geosite:fandom
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 12
+#
+DOMAIN-SUFFIX,cortexrpg.com
+DOMAIN-SUFFIX,cursecdn.com
+DOMAIN-SUFFIX,dndbeyond.com
+DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,fandom.com
+DOMAIN-SUFFIX,futhead.com
+DOMAIN-SUFFIX,gamepedia.com
+DOMAIN-SUFFIX,muthead.com
+DOMAIN-SUFFIX,wikia.com
+DOMAIN-SUFFIX,wikia.nocookie.net
+DOMAIN-SUFFIX,wikia.org
+DOMAIN,fandom.zendesk.com

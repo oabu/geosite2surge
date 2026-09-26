@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:hikvision
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+.eziot.com
+.ezviz.com
+.hik-cloud.com
+.hik-express.com
+.hikiot.com
+.hikmall.com
+.hikvision.com
+.ys7.com

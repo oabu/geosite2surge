@@ -1,0 +1,16 @@
+# Title: Surge DOMAIN-SET - geosite:category-android-app-download
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 11
+#
+.apkcombo.com
+.apkmirror.com
+.apkpure.com
+.apkpure.net
+.apkpures.xyz
+.cdnpure.com
+.pureapk.com
+.uptodown.com
+.utdstc.com
+.winudf.com
+apkmirror.disqus.com

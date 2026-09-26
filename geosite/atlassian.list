@@ -1,0 +1,16 @@
+# Title: Surge RULE-SET - geosite:atlassian
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 11
+#
+DOMAIN-SUFFIX,atl-paas.net
+DOMAIN-SUFFIX,atlassian-dev.net
+DOMAIN-SUFFIX,atlassian.com
+DOMAIN-SUFFIX,atlassian.net
+DOMAIN-SUFFIX,bitbucket.io
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,jira.com
+DOMAIN-SUFFIX,ss-inf.net
+DOMAIN-SUFFIX,statuspage.io
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,trellocdn.com

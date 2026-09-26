@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:tube8
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,tube8.com
+DOMAIN-SUFFIX,tube8.fr

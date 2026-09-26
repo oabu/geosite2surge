@@ -1,0 +1,8 @@
+# Title: Surge DOMAIN-SET - geosite:formula1
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+.f1.com
+.f1tv.com
+.formula1.com

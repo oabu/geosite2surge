@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:digitalocean
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,digitalocean-ui.com
+DOMAIN-SUFFIX,digitalocean.com
+DOMAIN-SUFFIX,digitaloceanspaces.com
+DOMAIN-SUFFIX,do.co
+DOMAIN-SUFFIX,nginxconfig.io
+DOMAIN-SUFFIX,ondigitalocean.com

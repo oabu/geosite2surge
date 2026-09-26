@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:jwplayer
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.jwpcdn.com
+.jwplatform.com
+.jwplayer.com
+.jwpltx.com
+.jwpsrv.com
+.longtailvideo.com

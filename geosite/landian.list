@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:landian
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,lancdn.com
+DOMAIN-SUFFIX,landian.news
+DOMAIN-SUFFIX,landian.vip
+DOMAIN-SUFFIX,landian.xyz
+DOMAIN-SUFFIX,landiannews.com
+DOMAIN-SUFFIX,ourl.co
+DOMAIN-SUFFIX,wsoso.com

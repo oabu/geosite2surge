@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:zhihu
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.crash2.zhihu.com
+.laiyagushi.com
+.vzuu.com
+.zhihu-web-analytics.zhihu.com
+.zhihu.com
+.zhimg.com

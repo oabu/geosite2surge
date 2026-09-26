@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:booking
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,booking.cn
+DOMAIN-SUFFIX,booking.com
+DOMAIN-SUFFIX,bstatic.com

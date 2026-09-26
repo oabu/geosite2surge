@@ -1,0 +1,8 @@
+# Title: Surge DOMAIN-SET - geosite:cas
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 3
+#
+.csdl.ac.cn
+.iscas.ac.cn
+.las.ac.cn

@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:intsig
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.camcard.com
+.camscanner.com
+.intsig.com
+.intsig.net
+.qixin.com

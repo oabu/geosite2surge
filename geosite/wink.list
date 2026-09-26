@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:wink
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,more.tv
+DOMAIN-SUFFIX,restream-media.net
+DOMAIN-SUFFIX,restream.ru
+DOMAIN-SUFFIX,wink.am
+DOMAIN-SUFFIX,wink.ru

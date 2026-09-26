@@ -1,0 +1,15 @@
+# Title: Surge DOMAIN-SET - geosite:qiniu
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 10
+#
+.qbox.me
+.qiniu.com
+.qiniucdn.com
+.qiniudn.com
+.qiniudns.com
+.qiniup.com
+.qnsdk.com
+.qnssl.com
+.staticfile.net
+.staticfile.org

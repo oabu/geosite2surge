@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:squirrelvpn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,squirrelgroup.net
+DOMAIN-SUFFIX,squirrelvpn.com

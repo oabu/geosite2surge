@@ -1,0 +1,17 @@
+# Title: Surge DOMAIN-SET - geosite:canonical
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 12
+#
+.canonical.com
+.launchpad.net
+.launchpadcontent.net
+.launchpadlibrarian.com
+.launchpadlibrarian.net
+.launchpadlibrarian.org
+.snapcraft.io
+.snapstore.io
+.ubuntu-touch.io
+.ubuntu.com
+.ubuntu.net
+.ubuntuforums.org

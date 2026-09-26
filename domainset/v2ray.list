@@ -1,0 +1,8 @@
+# Title: Surge DOMAIN-SET - geosite:v2ray
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+.v2fly.org
+.v2ray.com
+.v2ray.cool

@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:wbgames
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,warnerbrosgames.com
+DOMAIN-SUFFIX,wbagora.com
+DOMAIN-SUFFIX,wbgames.com
+DOMAIN-SUFFIX,wbinsights.com
+DOMAIN,datarouter.apps.netherrealm.com
+DOMAIN,wb-agora-hydra-file-storage-k1.s3.amazonaws.com

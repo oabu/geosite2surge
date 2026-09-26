@@ -1,0 +1,16 @@
+# Title: Surge DOMAIN-SET - geosite:espn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 11
+#
+.dtci.co
+.dtci.technology
+.espn.co.uk
+.espn.com
+.espn.net
+.espncdn.com
+.espnqa.com
+.watchespn.com
+espn.api.edge.bamgrid.com
+espn.hb.omtrdc.net
+espndotcom.tt.omtrdc.net

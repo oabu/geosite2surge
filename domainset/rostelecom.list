@@ -1,0 +1,14 @@
+# Title: Surge DOMAIN-SET - geosite:rostelecom
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+.azbukainterneta.ru
+.more.tv
+.restream-media.net
+.restream.ru
+.rostelecom.ru
+.rt.ru
+.wink.am
+.wink.ru
+sentry.iptv.rt.ru

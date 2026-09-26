@@ -1,0 +1,16 @@
+# Title: Surge DOMAIN-SET - geosite:slack
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 11
+#
+.slack-core.com
+.slack-edge.com
+.slack-files.com
+.slack-imgs.com
+.slack-msgs.com
+.slack-redir.net
+.slack.com
+.slackb.com
+.slackcertified.com
+.slackdemo.com
+.slackhq.com

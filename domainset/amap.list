@@ -1,0 +1,21 @@
+# Title: Surge DOMAIN-SET - geosite:amap
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 16
+#
+.a-map.cn
+.a-map.co
+.a-map.link
+.a-map.vip
+.acloudrender.com
+.adashx.ut.amap.com
+.amap.com
+.amap.net
+.amapauto.com
+.anav.com
+.autonavi.com
+.dualstack-logs.amap.com
+.gaode.com
+.logs.amap.com
+.optimus-ads.amap.com
+.v6-adashx.ut.amap.com

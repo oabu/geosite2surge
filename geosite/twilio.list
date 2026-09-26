@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:twilio
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,twilio.com
+DOMAIN-SUFFIX,twilio.jp
+DOMAIN-SUFFIX,tytch.com

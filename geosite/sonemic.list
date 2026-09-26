@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:sonemic
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,glitchwave.com
+DOMAIN-SUFFIX,rateyourmusic.com
+DOMAIN-SUFFIX,rym.fm
+DOMAIN-SUFFIX,snmc.io
+DOMAIN-SUFFIX,sonematic.net
+DOMAIN-SUFFIX,sonemic.com

@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:sci-hub
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,sci-hub.ee
+DOMAIN-SUFFIX,sci-hub.it.nf
+DOMAIN-SUFFIX,sci-hub.mksa.top
+DOMAIN-SUFFIX,sci-hub.se
+DOMAIN-SUFFIX,sci-hub.st
+DOMAIN-SUFFIX,sci.hubg.org

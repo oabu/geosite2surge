@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:symantec-pki
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.pki.symantec.com
+.symauth.com
+.symcb.com
+.symcd.com
+.ws.symantec.com

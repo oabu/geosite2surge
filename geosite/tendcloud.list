@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:tendcloud
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,cpatrk.net
+DOMAIN-SUFFIX,talkingdata.com
+DOMAIN-SUFFIX,talkinggame.com
+DOMAIN-SUFFIX,tdsdk.cpatrk.net
+DOMAIN-SUFFIX,tendcloud.com

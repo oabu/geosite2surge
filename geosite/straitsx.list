@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:straitsx
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,straitsx.com
+DOMAIN,d3r7nsslvs6aaf.cloudfront.net
+DOMAIN,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com

@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:javcc
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,javcc.cc
+DOMAIN-SUFFIX,javcc.com

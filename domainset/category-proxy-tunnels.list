@@ -1,0 +1,21 @@
+# Title: Surge DOMAIN-SET - geosite:category-proxy-tunnels
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 16
+#
+.equinox.io
+.ngrok-agent.com
+.ngrok-free.app
+.ngrok-free.dev
+.ngrok-free.pizza
+.ngrok.app
+.ngrok.com
+.ngrok.dev
+.ngrok.io
+.ngrok.pizza
+.ngrok.pro
+.pinggy.io
+.pinggy.link
+.tailscale.com
+.tailscale.io
+.ts.net

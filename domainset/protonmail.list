@@ -1,0 +1,14 @@
+# Title: Surge DOMAIN-SET - geosite:protonmail
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+.pm.me
+.proton.me
+.protonmail.ch
+.protonmail.com
+.protonstatus.com
+.protontech.ch
+.protonvpn.ch
+.protonvpn.com
+.protonweb.com

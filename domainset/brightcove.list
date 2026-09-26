@@ -1,0 +1,19 @@
+# Title: Surge DOMAIN-SET - geosite:brightcove
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 14
+#
+.bcove.video
+.bcovlive.io
+.bcvp0rtal.com
+.boltdns.net
+.brightcove.com
+.brightcove.net
+.brightcove.services
+.brightcovecdn.com
+.videojs.com
+.zencdn.net
+.zencoder.com
+bcovlive-a.akamaihd.net
+bcsecure01-a.akamaihd.net
+brightcove.imgix.net

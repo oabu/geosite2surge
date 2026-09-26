@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:36kr
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,36dianping.com
+DOMAIN-SUFFIX,36kr.com
+DOMAIN-SUFFIX,36krcdn.com
+DOMAIN-SUFFIX,36krcnd.com
+DOMAIN-SUFFIX,36linkr.com
+DOMAIN-SUFFIX,adx.36kr.com

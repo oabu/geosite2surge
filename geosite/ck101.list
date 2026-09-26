@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:ck101
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,ck101.com
+DOMAIN-SUFFIX,ckcdn.com
+DOMAIN-SUFFIX,ckck.fun

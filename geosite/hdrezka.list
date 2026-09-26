@@ -1,0 +1,16 @@
+# Title: Surge RULE-SET - geosite:hdrezka
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 11
+#
+DOMAIN-SUFFIX,hdrezka-home.tv
+DOMAIN-SUFFIX,hdrezka.ac
+DOMAIN-SUFFIX,hdrezka.ag
+DOMAIN-SUFFIX,hdrezka.cm
+DOMAIN-SUFFIX,hdrezka.co
+DOMAIN-SUFFIX,hdrezka.me
+DOMAIN-SUFFIX,hdrezka.org
+DOMAIN-SUFFIX,hdrezka.site
+DOMAIN-SUFFIX,hdrzk.org
+DOMAIN-SUFFIX,rezka.ag
+DOMAIN-SUFFIX,stream.voidboost.cc

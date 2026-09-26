@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:pingan
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,pingan.com
+DOMAIN-SUFFIX,pingan.com.cn
+DOMAIN-SUFFIX,pingan.com.hk
+DOMAIN-SUFFIX,yqb.com

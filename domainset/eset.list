@@ -1,0 +1,14 @@
+# Title: Surge DOMAIN-SET - geosite:eset
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+.cn.eset.com
+.e5.sk
+.eset.com
+.eset.eu
+.eset.sk
+.eset.systems
+.esetsoftware.com
+epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
+eset-prod-ca48648d0ce7cadf.elb.eu-central-1.amazonaws.com

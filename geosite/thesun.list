@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:thesun
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,dreamteamfc.com
+DOMAIN-SUFFIX,page3.com
+DOMAIN-SUFFIX,sunbingo.co.uk
+DOMAIN-SUFFIX,talksport.com
+DOMAIN-SUFFIX,thescottishsun.co.uk
+DOMAIN-SUFFIX,thesun.co.uk
+DOMAIN-SUFFIX,thesun.ie

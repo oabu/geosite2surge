@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:rockstar
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-SUFFIX,rockstarnorth.com
+DOMAIN-SUFFIX,rsg.ms
+DOMAIN-SUFFIX,rsg.sc
+DOMAIN,gamedownloads-rockstargames-com.akamaized.net
+DOMAIN,media-rockstargames-com.akamaized.net
+DOMAIN,videos-rockstargames-com.akamaized.net

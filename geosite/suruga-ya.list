@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:suruga-ya
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,suruga-ya.com
+DOMAIN-SUFFIX,suruga-ya.jp

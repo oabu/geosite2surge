@@ -1,0 +1,15 @@
+# Title: Surge RULE-SET - geosite:category-container
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 10
+#
+DOMAIN-SUFFIX,azurecr.io
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,ecr.aws
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,mcr.microsoft.com
+DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,registry.gitlab.com
+DOMAIN-SUFFIX,registry.k8s.io
+URL-REGEX,.+\.dkr\.ecr\.[^\.]+\.amazonaws\.com$

@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:nikkei
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 6
+#
+.nikkei-cnbc.co.jp
+.nikkei.co.jp
+.nikkei.com
+.nikkei.jp
+.nikkei4946.com
+.nikkeibp.co.jp

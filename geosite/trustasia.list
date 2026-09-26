@@ -1,0 +1,16 @@
+# Title: Surge RULE-SET - geosite:trustasia
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 11
+#
+DOMAIN-SUFFIX,51ssl.cn
+DOMAIN-SUFFIX,51ssl.com
+DOMAIN-SUFFIX,geossl.cn
+DOMAIN-SUFFIX,litessl.cn
+DOMAIN-SUFFIX,litessl.com
+DOMAIN-SUFFIX,myssl-uri.com
+DOMAIN-SUFFIX,myssl.com
+DOMAIN-SUFFIX,trustasia.cn
+DOMAIN-SUFFIX,trustasia.com
+DOMAIN-SUFFIX,trustasia.com.cn
+DOMAIN-SUFFIX,trustasia.net

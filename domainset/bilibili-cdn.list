@@ -1,0 +1,19 @@
+# Title: Surge DOMAIN-SET - geosite:bilibili-cdn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 14
+#
+.bilicdn1.com
+.bilicdn2.com
+.bilicdn3.com
+.bilicdn4.com
+.bilicdn5.com
+.biliimg.com
+.bilivideo.cn
+.bilivideo.com
+.bilivideo.net
+.hdslb.com
+.hdslb.org
+.maoercdn.com
+.mincdn.com
+upos-hz-mirrorakam.akamaized.net

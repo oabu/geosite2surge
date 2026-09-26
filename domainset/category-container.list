@@ -1,0 +1,14 @@
+# Title: Surge DOMAIN-SET - geosite:category-container
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 9
+#
+.azurecr.io
+.docker.io
+.ecr.aws
+.gcr.io
+.ghcr.io
+.mcr.microsoft.com
+.quay.io
+.registry.gitlab.com
+.registry.k8s.io

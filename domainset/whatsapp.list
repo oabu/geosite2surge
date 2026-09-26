@@ -1,0 +1,18 @@
+# Title: Surge DOMAIN-SET - geosite:whatsapp
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 13
+#
+.graph.whatsapp.com
+.graph.whatsapp.net
+.wa.me
+.whatsapp-plus.info
+.whatsapp-plus.me
+.whatsapp-plus.net
+.whatsapp.cc
+.whatsapp.com
+.whatsapp.info
+.whatsapp.net
+.whatsapp.org
+.whatsapp.tv
+.whatsappbrand.com

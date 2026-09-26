@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:dazn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+.dazn-api.com
+.dazn.com
+.dazndn.com
+.daznfeeds.com
+.daznplayer.com
+.daznservices.com
+.indazn.com
+.indaznlab.com

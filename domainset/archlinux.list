@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:archlinux
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.archlinux.de
+.archlinux.org
+.archlinux.page
+.archlinuxarm.org
+.archlinuxcn.org
+.pkgbuild.com

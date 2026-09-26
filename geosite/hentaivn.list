@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:hentaivn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,hentaivn.de
+DOMAIN-SUFFIX,hentaivn.la
+DOMAIN-SUFFIX,hentaivn.net
+DOMAIN-SUFFIX,htvncdn.net

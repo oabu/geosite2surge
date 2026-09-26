@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:boylove
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,boylove.cc
+DOMAIN-SUFFIX,boylove.live
+DOMAIN-SUFFIX,boylove1.cc
+DOMAIN-SUFFIX,boyloves.cc
+DOMAIN-SUFFIX,fuhouse.club

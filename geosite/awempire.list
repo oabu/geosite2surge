@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:awempire
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,awempire.com
+DOMAIN-SUFFIX,dditsadn.com
+DOMAIN-SUFFIX,dditscdn.com
+DOMAIN-SUFFIX,docleradn.com
+DOMAIN-SUFFIX,doclercdn.com

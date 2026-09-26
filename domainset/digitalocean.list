@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:digitalocean
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.digitalocean-ui.com
+.digitalocean.com
+.digitaloceanspaces.com
+.do.co
+.nginxconfig.io
+.ondigitalocean.com

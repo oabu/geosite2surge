@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:fedora
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,fedoraforum.org
+DOMAIN-SUFFIX,fedorainfracloud.org
+DOMAIN-SUFFIX,fedoramagazine.org
+DOMAIN-SUFFIX,fedorapeople.org
+DOMAIN-SUFFIX,fedoraproject.org
+DOMAIN-SUFFIX,getfedora.org

@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:amp
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.amp.dev
+.ampproject.com
+.ampproject.net
+.ampproject.org
+amp.akamaized.net
+cdn.ampproject.org

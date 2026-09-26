@@ -1,0 +1,8 @@
+# Title: Surge DOMAIN-SET - geosite:lastpass
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+.lastpass.com
+.lastpass.eu
+.lputil.com

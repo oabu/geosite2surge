@@ -1,0 +1,26 @@
+# Title: Surge DOMAIN-SET - geosite:abema
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 21
+#
+.abema-tv.com
+.abema.io
+.abema.tv
+.abematv.co.jp
+.adx.promo
+.ameba.jp
+.amebame.com
+.amebaownd.com
+.amebaowndme.com
+.ameblo.jp
+.bucketeer.jp
+.dokusho-ojikan.jp
+.hayabusa.dev
+.hayabusa.io
+.hayabusa.media
+.winticket.jp
+abematv.akamaized.net
+ds-linear-abematv.akamaized.net
+ds-vod-abematv.akamaized.net
+linear-abematv.akamaized.net
+vod-abematv.akamaized.net

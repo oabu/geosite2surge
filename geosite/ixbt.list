@@ -1,0 +1,14 @@
+# Title: Surge RULE-SET - geosite:ixbt
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+DOMAIN-SUFFIX,ixbt.com
+DOMAIN-SUFFIX,ixbt.games
+DOMAIN-SUFFIX,ixbt.market
+DOMAIN-SUFFIX,ixbt.media
+DOMAIN-SUFFIX,ixbt.pro
+DOMAIN-SUFFIX,ixbt.ru
+DOMAIN-SUFFIX,ixbt.shop
+DOMAIN-SUFFIX,ixbt.site
+DOMAIN-SUFFIX,ixbt.video

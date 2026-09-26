@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:canva
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+.affinity-beta.s3.amazonaws.com
+.affinity-lessons.s3.amazonaws.com
+.affinity.api.serifservices.com
+.affinity.studio
+.canva.com
+.canvastatus.com

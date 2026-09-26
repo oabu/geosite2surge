@@ -1,0 +1,15 @@
+# Title: Surge RULE-SET - geosite:cainiao
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 10
+#
+DOMAIN-SUFFIX,56xiniao.com
+DOMAIN-SUFFIX,cainiao-inc.com
+DOMAIN-SUFFIX,cainiao.com
+DOMAIN-SUFFIX,cainiao.com.cn
+DOMAIN-SUFFIX,cainiaoyizhan.com
+DOMAIN-SUFFIX,danniao.com
+DOMAIN-SUFFIX,dianwoda.cn
+DOMAIN-SUFFIX,dianwoda.com
+DOMAIN-SUFFIX,guoguo-app.com
+DOMAIN-SUFFIX,v6-adashx.ut.cainiao.com

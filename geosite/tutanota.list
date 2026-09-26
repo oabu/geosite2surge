@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:tutanota
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,keemail.me
+DOMAIN-SUFFIX,tuta.com
+DOMAIN-SUFFIX,tuta.io
+DOMAIN-SUFFIX,tutamail.com
+DOMAIN-SUFFIX,tutanota.com
+DOMAIN-SUFFIX,tutanota.de

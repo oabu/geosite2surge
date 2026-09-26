@@ -1,0 +1,17 @@
+# Title: Surge DOMAIN-SET - geosite:nixos
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 12
+#
+.builtwithnix.org
+.mynixos.com
+.nix-community.org
+.nix.dev
+.nix.store
+.nixcon.org
+.nixcon2017.org
+.nixlang.com
+.nixos.org
+.nixos.wiki
+.nixpkgs.org
+nix-community.github.io

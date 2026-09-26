@@ -1,0 +1,26 @@
+# Title: Surge DOMAIN-SET - geosite:telegram
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 21
+#
+.cdn-telegram.org
+.comments.app
+.contest.com
+.fragment.com
+.graph.org
+.quiz.directory
+.t.me
+.tdesktop.com
+.telega.one
+.telegra.ph
+.telegram-cdn.org
+.telegram.dog
+.telegram.me
+.telegram.org
+.telegram.space
+.telesco.pe
+.tg.dev
+.ton.org
+.toncenter.com
+.tx.me
+.usercontent.dev

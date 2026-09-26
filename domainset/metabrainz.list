@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:metabrainz
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+.acousticbrainz.org
+.bookbrainz.org
+.coverartarchive.org
+.critiquebrainz.org
+.listenbrainz.org
+.messybrainz.org
+.metabrainz.org
+.musicbrainz.org

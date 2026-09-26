@@ -1,0 +1,19 @@
+# Title: Surge RULE-SET - geosite:monotype
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 14
+#
+DOMAIN-SUFFIX,bitstream.com
+DOMAIN-SUFFIX,fontbook.com
+DOMAIN-SUFFIX,fontexplorerx.com
+DOMAIN-SUFFIX,fonts.com
+DOMAIN-SUFFIX,fonts.net
+DOMAIN-SUFFIX,fontshop.com
+DOMAIN-SUFFIX,fstopimages.com
+DOMAIN-SUFFIX,itcfonts.com
+DOMAIN-SUFFIX,linotype.com
+DOMAIN-SUFFIX,monotype.com
+DOMAIN-SUFFIX,monotypeimaging.com
+DOMAIN-SUFFIX,myfonts.com
+DOMAIN-SUFFIX,myfonts.net
+DOMAIN,fontshop-prod-responsive-images.s3.amazonaws.com

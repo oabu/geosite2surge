@@ -1,0 +1,17 @@
+# Title: Surge RULE-SET - geosite:anker
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 12
+#
+DOMAIN-SUFFIX,anker-in.com
+DOMAIN-SUFFIX,anker.com
+DOMAIN-SUFFIX,anker.com.cn
+DOMAIN-SUFFIX,ankersolix.com
+DOMAIN-SUFFIX,ankerwork.cn
+DOMAIN-SUFFIX,eufy.com
+DOMAIN-SUFFIX,eufycn.com
+DOMAIN-SUFFIX,eufylife.com
+DOMAIN-SUFFIX,eufymake.com
+DOMAIN-SUFFIX,eufymake.com.cn
+DOMAIN-SUFFIX,soundcore.com
+DOMAIN-SUFFIX,soundcore.com.cn

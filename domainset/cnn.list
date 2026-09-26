@@ -1,0 +1,14 @@
+# Title: Surge DOMAIN-SET - geosite:cnn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+.cnn.com
+.cnn.io
+.cnn.it
+.cnnarabic.com
+.cnnlabs.com
+.cnnmoney.ch
+.cnnmoney.com
+.cnnmoneystream.com
+.cnnpolitics.com

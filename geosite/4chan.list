@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:4chan
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,4cdn.org
+DOMAIN-SUFFIX,4chan.org
+DOMAIN-SUFFIX,4channel.org

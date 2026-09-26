@@ -1,0 +1,9 @@
+# Title: Surge DOMAIN-SET - geosite:54647
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+.54647.global
+.54647.io
+.54647.online
+.54647.org

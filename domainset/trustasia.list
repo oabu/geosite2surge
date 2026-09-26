@@ -1,0 +1,16 @@
+# Title: Surge DOMAIN-SET - geosite:trustasia
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 11
+#
+.51ssl.cn
+.51ssl.com
+.geossl.cn
+.litessl.cn
+.litessl.com
+.myssl-uri.com
+.myssl.com
+.trustasia.cn
+.trustasia.com
+.trustasia.com.cn
+.trustasia.net

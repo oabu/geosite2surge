@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:sourcehut
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,sourcehut.org
+DOMAIN-SUFFIX,sr.ht

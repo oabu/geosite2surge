@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:ftv
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN-SUFFIX,ftv.com.tw
+DOMAIN-SUFFIX,ftvnews.com.tw

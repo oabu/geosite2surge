@@ -1,0 +1,18 @@
+# Title: Surge DOMAIN-SET - geosite:zoho
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 13
+#
+.zoho.com
+.zoho.com.au
+.zoho.eu
+.zoho.in
+.zohocdn.com
+.zohomeetups.com
+.zohomerchandise.com
+.zohopublic.com
+.zohoschools.com
+.zohostatic.com
+.zohostatic.in
+.zohouniversity.com
+.zohowebstatic.com

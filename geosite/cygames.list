@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:cygames
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,cygames.co.jp
+DOMAIN-SUFFIX,cygames.jp
+DOMAIN-SUFFIX,umamusume.akamaized.net
+DOMAIN-SUFFIX,worldflipper.akamaized.net
+DOMAIN-SUFFIX,worldflipper.jp

@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:xueqiu
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,aiganggu.com
+DOMAIN-SUFFIX,danjuanfunds.com
+DOMAIN-SUFFIX,imedao.com
+DOMAIN-SUFFIX,snowballsecurities.com
+DOMAIN-SUFFIX,xueqiu.com

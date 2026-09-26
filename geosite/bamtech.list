@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:bamtech
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,bamtech.net
+DOMAIN-SUFFIX,dmed.technology

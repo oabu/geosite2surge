@@ -1,0 +1,15 @@
+# Title: Surge DOMAIN-SET - geosite:wordpress
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 10
+#
+.videopress.com
+.w.org
+.wordcamp.org
+.wordpress.com
+.wordpress.net
+.wordpress.org
+.wordpress.tv
+.wp-themes.com
+.wp.com
+.wpvip.com

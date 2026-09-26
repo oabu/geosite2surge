@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:ximalaya
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.adbehavior.ximalaya.com
+.adse.wsa.ximalaya.com
+.adse.ximalaya.com
+.ximalaya.com
+.xmcdn.com

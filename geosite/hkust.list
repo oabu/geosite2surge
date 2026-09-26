@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:hkust
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,hkust.edu.hk
+DOMAIN-SUFFIX,hkust.hk
+DOMAIN-SUFFIX,xn--pssu7ci2j23mp9ny48b.hk
+DOMAIN-SUFFIX,xn--pssu7ci2j23mp9ny48b.xn--j6w193g

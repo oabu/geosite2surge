@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:sentry
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,getsentry.com
+DOMAIN-SUFFIX,sentry-cdn.com
+DOMAIN-SUFFIX,sentry.dev
+DOMAIN-SUFFIX,sentry.io

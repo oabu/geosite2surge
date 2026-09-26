@@ -1,0 +1,16 @@
+# Title: Surge RULE-SET - geosite:cheetahmobile
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 11
+#
+DOMAIN-SUFFIX,cheetahfun.com
+DOMAIN-SUFFIX,cmcm.com
+DOMAIN-SUFFIX,cmcmcdn.com
+DOMAIN-SUFFIX,drivergenius.com
+DOMAIN-SUFFIX,duba.com
+DOMAIN-SUFFIX,duba.net
+DOMAIN-SUFFIX,ijinshan.com
+DOMAIN-SUFFIX,keniu.com
+DOMAIN-SUFFIX,liebao.cn
+DOMAIN-SUFFIX,yuanqidesk.com
+DOMAIN-SUFFIX,zhhainiao.com

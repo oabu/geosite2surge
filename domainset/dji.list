@@ -1,0 +1,15 @@
+# Title: Surge DOMAIN-SET - geosite:dji
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 10
+#
+.dji.com
+.dji.ink
+.dji.net
+.djicdn.com
+.djigate.com
+.djiits.com
+.djiops.com
+.djiservice.org
+.robomaster.com
+.skypixel.com

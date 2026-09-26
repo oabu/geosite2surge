@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:aamgame
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.aamgame.com
+.aamgame.mobi
+.aamgame.net
+.aamsmart.com
+.singworld.net

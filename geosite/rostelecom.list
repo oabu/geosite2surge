@@ -1,0 +1,14 @@
+# Title: Surge RULE-SET - geosite:rostelecom
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+DOMAIN-SUFFIX,azbukainterneta.ru
+DOMAIN-SUFFIX,more.tv
+DOMAIN-SUFFIX,restream-media.net
+DOMAIN-SUFFIX,restream.ru
+DOMAIN-SUFFIX,rostelecom.ru
+DOMAIN-SUFFIX,rt.ru
+DOMAIN-SUFFIX,wink.am
+DOMAIN-SUFFIX,wink.ru
+DOMAIN,sentry.iptv.rt.ru

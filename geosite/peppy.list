@@ -1,0 +1,15 @@
+# Title: Surge RULE-SET - geosite:peppy
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 10
+#
+DOMAIN-SUFFIX,ppy.sh
+DOMAIN,a.ppy.sh
+DOMAIN,assets.ppy.sh
+DOMAIN,c.ppy.sh
+DOMAIN,lazer.ppy.sh
+DOMAIN,m1.ppy.sh
+DOMAIN,notify.ppy.sh
+DOMAIN,osu.ppy.sh
+DOMAIN,sentry.ppy.sh
+DOMAIN,spectator.ppy.sh

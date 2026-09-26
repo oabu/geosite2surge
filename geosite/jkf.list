@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:jkf
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,jkf.net
+DOMAIN-SUFFIX,jkface.net
+DOMAIN-SUFFIX,jkforum.net
+DOMAIN-SUFFIX,jr24h.com
+DOMAIN-SUFFIX,jvid.com

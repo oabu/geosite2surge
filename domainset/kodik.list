@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:kodik
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.kodik-storage.com
+.kodik.biz
+.kodik.cc
+.kodik.info
+.kodikplayer.com

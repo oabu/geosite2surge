@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:panasonic
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,panasonic
+DOMAIN-SUFFIX,panasonic.cn
+DOMAIN-SUFFIX,panasonic.com
+DOMAIN-SUFFIX,panasonic.jp
+DOMAIN-SUFFIX,technics.com

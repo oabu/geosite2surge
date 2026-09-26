@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:yuanbei
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,i2oo.cn
+DOMAIN-SUFFIX,laoban100.com
+DOMAIN-SUFFIX,shengyi.ai
+DOMAIN-SUFFIX,shengyizhuanjia.com
+DOMAIN-SUFFIX,yuanbei.biz

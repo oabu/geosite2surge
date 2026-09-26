@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:tex
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,ctan.org
+DOMAIN-SUFFIX,latex-project.org
+DOMAIN-SUFFIX,miktex.org
+DOMAIN-SUFFIX,tug.org

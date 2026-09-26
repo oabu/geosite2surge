@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:weathercn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.hf-aw.cn
+.hf-aw.com
+.huafeng-accuweather.cn
+.huafengaw.com
+.weathercn.com

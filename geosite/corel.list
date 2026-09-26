@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:corel
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,corel.com
+DOMAIN-SUFFIX,corel.net
+DOMAIN-SUFFIX,coreldraw.app
+DOMAIN-SUFFIX,coreldraw.com
+DOMAIN-SUFFIX,corelstore.com

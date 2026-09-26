@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:starplus
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 6
+#
+.star.api.edge.bamgrid.com
+.star.connections.edge.bamgrid.com
+.star.content.edge.bamgrid.com
+.star.playback.edge.bamgrid.com
+.starott.com
+.starplus.com

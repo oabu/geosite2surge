@@ -1,0 +1,19 @@
+# Title: Surge DOMAIN-SET - geosite:dnspod
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 14
+#
+.dns.pub
+.dnsapi.cn
+.dnspod.cn
+.dnspod.com
+.dnspod.com.cn
+.dnspod.mobi
+.dnspod.net
+.dnspod.org
+.dnsv2.com
+.dnsv3.com
+.dnsv4.com
+.dnsv5.com
+.doh.pub
+.dot.pub

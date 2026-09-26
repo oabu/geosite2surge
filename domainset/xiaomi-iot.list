@@ -1,0 +1,9 @@
+# Title: Surge DOMAIN-SET - geosite:xiaomi-iot
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:49 UTC
+# Total Rules: 4
+#
+.account.xiaomi.com
+.cn-ha.mqtt.io.mi.com
+.ha.api.io.mi.com
+.miot-spec.org

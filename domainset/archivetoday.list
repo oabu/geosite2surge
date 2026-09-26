@@ -1,0 +1,12 @@
+# Title: Surge DOMAIN-SET - geosite:archivetoday
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+.archive.fo
+.archive.is
+.archive.li
+.archive.md
+.archive.ph
+.archive.today
+.archive.vn

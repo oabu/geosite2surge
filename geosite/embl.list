@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:embl
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,ebi.ac.uk
+DOMAIN-SUFFIX,embl-hamburg.de
+DOMAIN-SUFFIX,embl.de
+DOMAIN-SUFFIX,embl.fr
+DOMAIN-SUFFIX,embl.it
+DOMAIN-SUFFIX,embl.org
+DOMAIN-SUFFIX,emblstatic.net

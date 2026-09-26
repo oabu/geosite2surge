@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:bilibili2
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,bili2.cc
+DOMAIN-SUFFIX,bili888.com
+DOMAIN-SUFFIX,bili999.com
+URL-REGEX,(^|\.)bilibili3(0[1-9]|1[0-2])\.xyz$

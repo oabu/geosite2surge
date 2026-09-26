@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:category-travel-ir
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,alibaba.ir
+DOMAIN-SUFFIX,flightio.com
+DOMAIN-SUFFIX,mrbilit.com
+DOMAIN-SUFFIX,tap30.services
+DOMAIN-SUFFIX,tap33.me
+DOMAIN-SUFFIX,tapsi.cab
+DOMAIN-SUFFIX,tapsi.ir

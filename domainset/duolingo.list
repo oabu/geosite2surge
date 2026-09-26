@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:duolingo
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 5
+#
+.ads-api.duolingo.com
+.analytics.vpc.duolingo.com
+.duolingo.cn
+.duolingo.com
+.metrics.duolingo.com

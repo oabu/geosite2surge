@@ -1,0 +1,14 @@
+# Title: Surge RULE-SET - geosite:vilavpn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 9
+#
+DOMAIN-SUFFIX,vilavpn.com
+DOMAIN-SUFFIX,vilavpn.xyz
+DOMAIN-SUFFIX,vilavpn1.xyz
+DOMAIN-SUFFIX,vilavpn2.xyz
+DOMAIN-SUFFIX,vilavpn3.xyz
+DOMAIN-SUFFIX,vilavpn4.xyz
+DOMAIN-SUFFIX,vilavpn5.xyz
+DOMAIN-SUFFIX,vilavpn6.xyz
+DOMAIN-SUFFIX,vilavpn7.xyz

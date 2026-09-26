@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:suning
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,cnsuning.com
+DOMAIN-SUFFIX,suning.cn
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,suningcloud.com
+DOMAIN-SUFFIX,suningestate.com
+DOMAIN-SUFFIX,suningholdings.com

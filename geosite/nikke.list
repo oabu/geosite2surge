@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:nikke
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,nikke-de.com
+DOMAIN-SUFFIX,nikke-en.com
+DOMAIN-SUFFIX,nikke-fr.com
+DOMAIN-SUFFIX,nikke-jp.com
+DOMAIN-SUFFIX,nikke-kr.com
+DOMAIN-SUFFIX,nikke-sea.com

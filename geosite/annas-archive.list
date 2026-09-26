@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:annas-archive
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,annas-archive.gd
+DOMAIN-SUFFIX,annas-archive.gl
+DOMAIN-SUFFIX,annas-archive.in
+DOMAIN-SUFFIX,annas-archive.li
+DOMAIN-SUFFIX,annas-archive.org
+DOMAIN-SUFFIX,annas-archive.pk
+DOMAIN-SUFFIX,annas-archive.pm
+DOMAIN-SUFFIX,annas-archive.se

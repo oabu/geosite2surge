@@ -1,0 +1,22 @@
+# Title: Surge DOMAIN-SET - geosite:thelinuxfoundation
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 17
+#
+.amp.dev
+.ampproject.com
+.ampproject.net
+.ampproject.org
+.electronjs.org
+.jquery.com
+.jquerymobile.com
+.jqueryui.com
+.kernel.org
+.lfai.foundation
+.linux.org
+.linuxfoundation.org
+.mochajs.org
+.nodejs.org
+.openjsf.org
+amp.akamaized.net
+cdn.ampproject.org

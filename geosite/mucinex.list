@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:mucinex
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-09-26 01:22:50 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,mucinex.ca
+DOMAIN-SUFFIX,mucinex.cn
+DOMAIN-SUFFIX,mucinex.co.nz
+DOMAIN-SUFFIX,mucinex.com
+DOMAIN-SUFFIX,mucinex.com.cn
+DOMAIN-SUFFIX,mucinex.net
+DOMAIN-SUFFIX,mucinex.tv
+DOMAIN-SUFFIX,mucinexprofessional.com
