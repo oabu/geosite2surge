@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:cern
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,ams02.space
+DOMAIN-SUFFIX,cern
+DOMAIN-SUFFIX,cern.ch
+DOMAIN-SUFFIX,cixp.net
+DOMAIN-SUFFIX,dotcernpilot.info
+DOMAIN-SUFFIX,ippog.org
+DOMAIN-SUFFIX,linearcollider.org

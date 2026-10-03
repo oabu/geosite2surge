@@ -1,0 +1,12 @@
+# Title: Surge DOMAIN-SET - geosite:fastly
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 7
+#
+.fastly-edge.com
+.fastly-terrarium.com
+.fastly.com
+.fastly.io
+.fastly.net
+.fastlylabs.com
+.fastlylb.net

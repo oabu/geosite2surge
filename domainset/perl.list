@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:perl
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:31 UTC
+# Total Rules: 5
+#
+.cpan.org
+.metacpan.org
+.modperl.pl
+.perl.apache.org
+.perl.org

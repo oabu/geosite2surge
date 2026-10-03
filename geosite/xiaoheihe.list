@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:xiaoheihe
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,1xhh.cn
+DOMAIN-SUFFIX,accxiaoheihe.com
+DOMAIN-SUFFIX,chat.top
+DOMAIN-SUFFIX,debugmode.cn
+DOMAIN-SUFFIX,max-c.com
+DOMAIN-SUFFIX,maxadmin.cn
+DOMAIN-SUFFIX,maxjia.com
+DOMAIN-SUFFIX,xiaoheihe.cn

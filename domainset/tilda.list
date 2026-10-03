@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:tilda
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 6
+#
+.tilda.cc
+.tilda.ru
+.tilda.ws
+.tildaapi.com
+.tildacdn.com
+.tildacdn.net

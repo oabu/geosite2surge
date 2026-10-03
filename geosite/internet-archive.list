@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:internet-archive
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:31 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,archive-it.org
+DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,openlibrary.org

@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:microsoft-pki
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:31 UTC
+# Total Rules: 6
+#
+.msocsp.com
+crl.microsoft.com
+mscrl.microsoft.com
+ocsp.microsoft.com
+oneocsp.microsoft.com
+www.microsoft.com

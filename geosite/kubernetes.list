@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:kubernetes
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,k8s.io
+DOMAIN-SUFFIX,kubernetes.io

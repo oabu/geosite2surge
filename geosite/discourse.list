@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:discourse
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,discourse-cdn.com
+DOMAIN-SUFFIX,discourse.group
+DOMAIN-SUFFIX,discourse.org

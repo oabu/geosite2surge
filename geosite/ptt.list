@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:ptt
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,ptt.cc
+DOMAIN-SUFFIX,ptt2.cc
+DOMAIN-SUFFIX,ptt3.cc

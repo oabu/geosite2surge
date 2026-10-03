@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:clubhouse
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,clubhouse.com
+DOMAIN-SUFFIX,clubhouseapi.com
+DOMAIN-SUFFIX,joinclubhouse.com

@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:cygames
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:31 UTC
+# Total Rules: 5
+#
+.cygames.co.jp
+.cygames.jp
+.umamusume.akamaized.net
+.worldflipper.akamaized.net
+.worldflipper.jp

@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:bdsmhub
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,bdsm123.xyz
+DOMAIN-SUFFIX,bondagesm.xyz

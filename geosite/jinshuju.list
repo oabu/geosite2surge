@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:jinshuju
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,jinshuju.net
+DOMAIN-SUFFIX,jinshujucdn.com
+DOMAIN-SUFFIX,jsj.top

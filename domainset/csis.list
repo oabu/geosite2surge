@@ -1,0 +1,7 @@
+# Title: Surge DOMAIN-SET - geosite:csis
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:31 UTC
+# Total Rules: 2
+#
+.csis.org
+csis-prod.s3.amazonaws.com

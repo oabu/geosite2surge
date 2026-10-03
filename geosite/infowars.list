@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:infowars
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,banned.video
+DOMAIN-SUFFIX,infowars.com
+DOMAIN-SUFFIX,infowarsmedia.com

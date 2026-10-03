@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:tutanota
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 6
+#
+.keemail.me
+.tuta.com
+.tuta.io
+.tutamail.com
+.tutanota.com
+.tutanota.de

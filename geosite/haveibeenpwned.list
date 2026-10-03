@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:haveibeenpwned
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:31 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,haveibeenpwned.com
+DOMAIN-SUFFIX,pwnedpasswords.com

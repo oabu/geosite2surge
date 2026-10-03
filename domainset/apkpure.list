@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:apkpure
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 6
+#
+.apkpure.com
+.apkpure.net
+.apkpures.xyz
+.cdnpure.com
+.pureapk.com
+.winudf.com

@@ -1,0 +1,6 @@
+# Title: Surge RULE-SET - geosite:pastebin
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:31 UTC
+# Total Rules: 1
+#
+DOMAIN-SUFFIX,pastebin.com

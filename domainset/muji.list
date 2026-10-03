@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:muji
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 8
+#
+.muji.com
+.muji.com.cn
+.muji.com.hk
+.muji.eu
+.muji.net
+.muji.tw
+.muji.us
+.mujikorea.net

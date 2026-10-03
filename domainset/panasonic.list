@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:panasonic
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-03 01:50:30 UTC
+# Total Rules: 5
+#
+.panasonic
+.panasonic.cn
+.panasonic.com
+.panasonic.jp
+.technics.com
