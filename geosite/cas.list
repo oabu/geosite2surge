@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:cas
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,csdl.ac.cn
+DOMAIN-SUFFIX,iscas.ac.cn
+DOMAIN-SUFFIX,las.ac.cn

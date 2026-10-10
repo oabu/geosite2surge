@@ -1,0 +1,15 @@
+# Title: Surge DOMAIN-SET - geosite:entrust
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 10
+#
+.affirmtrust.com
+.atos.net
+.certificat2.com
+.entrust.cn
+.entrust.com
+.entrust.net
+.entrustdatacard.com
+.myatos.net
+.trendmicro.com
+www.entrust.cn

@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:wbgames
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 6
+#
+.warnerbrosgames.com
+.wbagora.com
+.wbgames.com
+.wbinsights.com
+datarouter.apps.netherrealm.com
+wb-agora-hydra-file-storage-k1.s3.amazonaws.com

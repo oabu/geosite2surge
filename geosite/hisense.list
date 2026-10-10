@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:hisense
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,hisense-home.com
+DOMAIN-SUFFIX,hisense.com
+DOMAIN-SUFFIX,hisensehitachi.com
+DOMAIN-SUFFIX,hisensekf.com
+DOMAIN-SUFFIX,hismarttv.com
+DOMAIN-SUFFIX,juhaokan.org

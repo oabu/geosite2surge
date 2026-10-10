@@ -1,0 +1,11 @@
+# Title: Surge RULE-SET - geosite:icable
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 6
+#
+DOMAIN-SUFFIX,cabletv.com.hk
+DOMAIN-SUFFIX,fantv.hk
+DOMAIN-SUFFIX,hkopentv.com
+DOMAIN-SUFFIX,hoy.tv
+DOMAIN-SUFFIX,i-cable.com
+DOMAIN-SUFFIX,i-cablecomm.com

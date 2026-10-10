@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:nikke
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 6
+#
+.nikke-de.com
+.nikke-en.com
+.nikke-fr.com
+.nikke-jp.com
+.nikke-kr.com
+.nikke-sea.com

@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:hinet-eca
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 5
+#
+.eca.hinet.net
+.gtlsca.nat.gov.tw
+.pki.hinet.net
+.publicca.hinet.net
+.tls.hinet.net

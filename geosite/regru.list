@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:regru
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:07 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,reg.cloud
+DOMAIN-SUFFIX,reg.com
+DOMAIN-SUFFIX,reg.ru

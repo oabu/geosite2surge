@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:oan
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,aweencore.com
+DOMAIN-SUFFIX,awetv.com
+DOMAIN-SUFFIX,herringnetwork.com
+DOMAIN-SUFFIX,oanencore.com
+DOMAIN-SUFFIX,oann.com

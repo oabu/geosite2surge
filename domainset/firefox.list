@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:firefox
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 8
+#
+.extendfirefox.com
+.firefox-portal-detection.com
+.firefox.com
+.firefox.hu
+.firefoxtweetmachine.com
+.firefoxusercontent.com
+mozilla-ohttp.fastly-edge.com
+mozilla.map.fastly.net

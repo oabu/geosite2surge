@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:catchplay
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,catchplay.com
+DOMAIN-SUFFIX,tra-ww000-cp.akamaized.net

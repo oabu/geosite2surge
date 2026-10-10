@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:tendcloud
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 5
+#
+.cpatrk.net
+.talkingdata.com
+.talkinggame.com
+.tdsdk.cpatrk.net
+.tendcloud.com

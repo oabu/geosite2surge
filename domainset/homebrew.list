@@ -1,0 +1,7 @@
+# Title: Surge DOMAIN-SET - geosite:homebrew
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:07 UTC
+# Total Rules: 2
+#
+.brew.sh
+homebrew.bintray.com

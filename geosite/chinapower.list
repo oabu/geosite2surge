@@ -1,0 +1,6 @@
+# Title: Surge RULE-SET - geosite:chinapower
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 1
+#
+DOMAIN,chinapower.csis.org

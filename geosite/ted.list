@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:ted
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,ted.com
+DOMAIN-SUFFIX,tedcdn.com

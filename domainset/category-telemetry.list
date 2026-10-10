@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:category-telemetry
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 6
+#
+.cafe.github.com
+.collector.github.com
+copilot-telemetry-service.githubusercontent.com
+copilot-telemetry.githubusercontent.com
+incoming-telemetry.thunderbird.net
+incoming.telemetry.mozilla.org

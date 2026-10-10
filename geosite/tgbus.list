@@ -1,0 +1,6 @@
+# Title: Surge RULE-SET - geosite:tgbus
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:07 UTC
+# Total Rules: 1
+#
+DOMAIN-SUFFIX,tgbus.com

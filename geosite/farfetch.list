@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:farfetch
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,farfetch-apps.com
+DOMAIN-SUFFIX,farfetch-contents.com
+DOMAIN-SUFFIX,farfetch.cn
+DOMAIN-SUFFIX,farfetch.com
+DOMAIN-SUFFIX,farfetch.com.cn
+DOMAIN-SUFFIX,farfetch.net
+DOMAIN-SUFFIX,farfetch.net.cn
+DOMAIN-SUFFIX,fflnk.net

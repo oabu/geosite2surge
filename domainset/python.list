@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:python
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 6
+#
+.pycon.org
+.pypa.io
+.pypi.io
+.pypi.org
+.python.org
+.pythonhosted.org

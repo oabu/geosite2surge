@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oabu.github.io/geosite2surge/sitemap.xml

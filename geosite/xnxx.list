@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:xnxx
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-10 02:13:06 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,xnxx-cdn.com
+DOMAIN-SUFFIX,xnxx.com
+DOMAIN-SUFFIX,xnxx.net
+DOMAIN-SUFFIX,xnxx.tv
+DOMAIN-SUFFIX,xnxx3.com
