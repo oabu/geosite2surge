@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:imdb
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 5
+#
+.boxofficemojo.com
+.imdb
+.imdb.com
+.imdb.to
+.media-imdb.com

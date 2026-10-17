@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:sling
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,dishworld.com
+DOMAIN-SUFFIX,movenetworks.com
+DOMAIN-SUFFIX,movetv.com
+DOMAIN-SUFFIX,sling.com
+DOMAIN-SUFFIX,slinginternational.com

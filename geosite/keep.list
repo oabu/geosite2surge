@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:keep
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,calorietech.com
+DOMAIN-SUFFIX,gotokeep.com
+DOMAIN-SUFFIX,keep.com
+DOMAIN-SUFFIX,keep.com.cn
+DOMAIN-SUFFIX,keepcdn.com

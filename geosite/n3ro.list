@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:n3ro
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:28 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,n3ro.lol
+DOMAIN-SUFFIX,n3ro.net
+DOMAIN-SUFFIX,n3ro.wtf

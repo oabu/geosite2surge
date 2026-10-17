@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:lkcoffee
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,lkcoffee.com
+DOMAIN-SUFFIX,luckincoffeecdn.com
+DOMAIN-SUFFIX,yyds.co

@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:focuschina
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,focuschina.com
+DOMAIN-SUFFIX,made-in-china.com
+DOMAIN-SUFFIX,micstatic.com
+DOMAIN-SUFFIX,trademessenger.com
+DOMAIN-SUFFIX,vemic.com

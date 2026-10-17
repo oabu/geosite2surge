@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:dailymotion
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,dailymotion.com
+DOMAIN-SUFFIX,dm-event.net
+DOMAIN-SUFFIX,dmcdn.net

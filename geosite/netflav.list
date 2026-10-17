@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:netflav
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,netflav.com
+DOMAIN-SUFFIX,netflav1.com
+DOMAIN-SUFFIX,netflav5.com

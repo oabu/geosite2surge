@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:zhubajie
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,tianpeng.com
+DOMAIN-SUFFIX,zbj.com
+DOMAIN-SUFFIX,zbjdev.com
+DOMAIN-SUFFIX,zbjimg.com
+DOMAIN-SUFFIX,zhubajie.com

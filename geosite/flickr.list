@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:flickr
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,flic.kr
+DOMAIN-SUFFIX,flickr
+DOMAIN-SUFFIX,flickr.com
+DOMAIN-SUFFIX,flickr.net
+DOMAIN-SUFFIX,staticflickr.com

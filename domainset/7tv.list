@@ -1,0 +1,7 @@
+# Title: Surge DOMAIN-SET - geosite:7tv
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 2
+#
+.7tv.app
+.7tv.io

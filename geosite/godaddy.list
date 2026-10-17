@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:godaddy
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:27 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,godaddy
+DOMAIN-SUFFIX,godaddy.com
+DOMAIN-SUFFIX,godaddy.net
+DOMAIN-SUFFIX,wsimg.com
+DOMAIN-SUFFIX,x.co

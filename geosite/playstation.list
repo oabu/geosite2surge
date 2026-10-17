@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:playstation
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:28 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,playstation
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com

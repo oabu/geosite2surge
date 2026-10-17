@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:xiaoyuzhou
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-17 01:12:28 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,podcast.xyz
+DOMAIN-SUFFIX,xiaoyuzhoufm.com
+DOMAIN-SUFFIX,xyzcdn.net
+DOMAIN-SUFFIX,xyzfm.link
+DOMAIN-SUFFIX,xyzfm.space
