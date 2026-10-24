@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:kinopoisk
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-24 01:27:33 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,kinopoisk-ru.clstorage.net
+DOMAIN-SUFFIX,kinopoisk.ru
+DOMAIN-SUFFIX,kp.yandex.net
+DOMAIN,kp-config-smart-tv.akamaized.net
+DOMAIN,kp-configs-smart-tv.s3.eu-central-1.amazonaws.com

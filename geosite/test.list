@@ -1,0 +1,6 @@
+# Title: Surge RULE-SET - geosite:test
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-24 01:27:33 UTC
+# Total Rules: 1
+#
+DOMAIN,test.example.com

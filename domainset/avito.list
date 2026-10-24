@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:avito
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-24 01:27:33 UTC
+# Total Rules: 5
+#
+.avito.com
+.avito.ru
+.avito.st
+.avito.tech
+stats.avito.ru

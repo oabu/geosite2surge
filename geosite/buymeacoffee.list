@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:buymeacoffee
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-24 01:27:33 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,buymeacoff.ee
+DOMAIN-SUFFIX,buymeacoffee.com

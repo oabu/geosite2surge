@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:vancl
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-24 01:27:33 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,vancl.com
+DOMAIN-SUFFIX,vanclimg.com
+DOMAIN-SUFFIX,vcimg.com
