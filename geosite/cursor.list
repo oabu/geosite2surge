@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:cursor
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:21 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com

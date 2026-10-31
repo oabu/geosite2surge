@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:cuhk
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:21 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,cuhk.edu.hk
+DOMAIN-SUFFIX,cuhk.hk
+DOMAIN-SUFFIX,xn--fiq80y.hk
+DOMAIN-SUFFIX,xn--fiq80y.xn--j6w193g
+DOMAIN-SUFFIX,xn--fiq80y3xbiwr.hk
+DOMAIN-SUFFIX,xn--fiq80y3xbiwr.xn--j6w193g
+DOMAIN-SUFFIX,xn--fiq80y3xbiwrs0kiu9d.hk
+DOMAIN-SUFFIX,xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g

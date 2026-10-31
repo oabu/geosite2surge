@@ -1,0 +1,16 @@
+# Title: Surge DOMAIN-SET - geosite:fluxer
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:21 UTC
+# Total Rules: 11
+#
+.fluxer.app
+.fluxer.com
+.fluxer.dev
+.fluxer.gg
+.fluxer.gift
+.fluxer.media
+.fluxer.tools
+.fluxerapp.com
+.fluxerstatic.com
+.fluxerstatus.com
+.fluxerusercontent.com

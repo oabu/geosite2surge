@@ -1,0 +1,12 @@
+# Title: Surge DOMAIN-SET - geosite:kontur
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:21 UTC
+# Total Rules: 7
+#
+.kontur-inc.com
+.kontur.host
+.kontur.ru
+.ktalk.host
+.ktalk.ru
+metrika.kontur.ru
+sentry.kontur.host

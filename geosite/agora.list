@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:agora
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:20 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,agora.io
+DOMAIN-SUFFIX,agoraio.cn
+DOMAIN-SUFFIX,agoralab.co
+DOMAIN-SUFFIX,easemob.com
+DOMAIN-SUFFIX,shengwang.cn

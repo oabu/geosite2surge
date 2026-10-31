@@ -1,0 +1,12 @@
+# Title: Surge DOMAIN-SET - geosite:cdprojekt
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:20 UTC
+# Total Rules: 7
+#
+.cdpred.services
+.cdprojekt.com
+.cdprojekt.red
+.cdprojektred.com
+.cyberpunk.net
+.playgwent.com
+.thewitcher.com

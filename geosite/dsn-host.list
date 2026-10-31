@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:dsn-host
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:21 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,ds-servers.com
+DOMAIN-SUFFIX,dsn.host
+DOMAIN-SUFFIX,dsncdn.net

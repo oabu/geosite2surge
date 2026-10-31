@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:baishancloud
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:21 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,bsclink.cn
+DOMAIN-SUFFIX,qingcdn.com
+DOMAIN-SUFFIX,trpcdn.net

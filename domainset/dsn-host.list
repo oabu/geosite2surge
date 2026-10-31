@@ -1,0 +1,8 @@
+# Title: Surge DOMAIN-SET - geosite:dsn-host
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-10-31 02:12:21 UTC
+# Total Rules: 3
+#
+.ds-servers.com
+.dsn.host
+.dsncdn.net
