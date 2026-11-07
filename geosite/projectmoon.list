@@ -1,0 +1,9 @@
+# Title: Surge RULE-SET - geosite:projectmoon
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-07 02:38:38 UTC
+# Total Rules: 4
+#
+DOMAIN-SUFFIX,limbuscompany.global
+DOMAIN-SUFFIX,limbuscompanyapi.com
+DOMAIN-SUFFIX,limbuscompanycdn.org
+DOMAIN-SUFFIX,projectmoon.studio

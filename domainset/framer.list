@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:framer
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-07 02:38:38 UTC
+# Total Rules: 5
+#
+.framer.com
+.framer.website
+.framercanvas.com
+.framerstatic.com
+.framerusercontent.com

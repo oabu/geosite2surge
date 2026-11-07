@@ -1,0 +1,11 @@
+# Title: Surge DOMAIN-SET - geosite:cambridge
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-07 02:38:38 UTC
+# Total Rules: 6
+#
+.cam.ac.uk
+.cambridge.org
+.cambridgedigital.net
+.cambridgemaths.org
+.cambridgeschoolshakespeare.com
+.dlib.eastview.com
