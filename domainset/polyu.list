@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:polyu
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-14 02:58:41 UTC
+# Total Rules: 5
+#
+.cpce-polyu.edu.hk
+.hkcc-polyu.edu.hk
+.polyu.edu.hk
+.polyu.hk
+.speed-polyu.edu.hk

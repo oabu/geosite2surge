@@ -1,0 +1,12 @@
+# Title: Surge DOMAIN-SET - geosite:github-copilot
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-14 02:58:41 UTC
+# Total Rules: 7
+#
+.githubcopilot.com
+copilot-proxy.githubusercontent.com
+copilot-telemetry-service.githubusercontent.com
+copilot-telemetry.githubusercontent.com
+copilot-workspace.githubnext.com
+copilotprodattachments.blob.core.windows.net
+production-copilot-host-westus.webpubsub.azure.com

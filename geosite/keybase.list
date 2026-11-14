@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:keybase
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-14 02:58:41 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,keybase.io
+DOMAIN-SUFFIX,keybaseapi.com

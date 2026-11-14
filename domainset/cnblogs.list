@@ -1,0 +1,13 @@
+# Title: Surge DOMAIN-SET - geosite:cnblogs
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-14 02:58:41 UTC
+# Total Rules: 8
+#
+.blogjava.net
+.cnblogs.com
+.cnblogs.vip
+.cnitblog.com
+.cnweblog.com
+.cppblog.com
+.phpweblog.net
+.teachblog.net

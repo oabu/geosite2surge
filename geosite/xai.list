@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:xai
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-14 02:58:40 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokbot.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,x.ai

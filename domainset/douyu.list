@@ -1,0 +1,12 @@
+# Title: Surge DOMAIN-SET - geosite:douyu
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-14 02:58:41 UTC
+# Total Rules: 7
+#
+.douyu.com
+.douyu.tv
+.douyucdn.cn
+.douyucdn2.cn
+.douyuscdn.com
+.douyutv.com
+.edgesrv.com

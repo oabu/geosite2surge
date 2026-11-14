@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:fzdm
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-14 02:58:40 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,fffdm.com
+DOMAIN-SUFFIX,fzdm.com
