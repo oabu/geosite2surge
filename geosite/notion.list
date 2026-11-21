@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:notion
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-21 03:52:05 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion-status.com
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.new
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notionusercontent.com

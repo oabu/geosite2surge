@@ -1,0 +1,6 @@
+# Title: Surge RULE-SET - geosite:ebuyer
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-21 03:52:04 UTC
+# Total Rules: 1
+#
+DOMAIN-SUFFIX,ebuyer.com

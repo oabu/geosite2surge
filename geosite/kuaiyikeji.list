@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:kuaiyikeji
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-21 03:52:04 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,dengguobi.com
+DOMAIN-SUFFIX,houyicaiji.com
+DOMAIN-SUFFIX,jinglingbiaozhu.com

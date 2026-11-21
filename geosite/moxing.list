@@ -1,0 +1,7 @@
+# Title: Surge RULE-SET - geosite:moxing
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-21 03:52:05 UTC
+# Total Rules: 2
+#
+DOMAIN-SUFFIX,moxing.mobi
+DOMAIN-SUFFIX,moxing.news

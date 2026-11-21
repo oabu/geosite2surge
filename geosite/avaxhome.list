@@ -1,0 +1,12 @@
+# Title: Surge RULE-SET - geosite:avaxhome
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-21 03:52:05 UTC
+# Total Rules: 7
+#
+DOMAIN-SUFFIX,avh.world
+DOMAIN-SUFFIX,avxde.org
+DOMAIN-SUFFIX,avxhm.is
+DOMAIN-SUFFIX,avxhm.se
+DOMAIN-SUFFIX,avxlive.icu
+DOMAIN-SUFFIX,xsava.xyz
+DOMAIN-SUFFIX,zavat.pw

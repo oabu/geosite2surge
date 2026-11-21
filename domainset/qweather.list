@@ -1,0 +1,10 @@
+# Title: Surge DOMAIN-SET - geosite:qweather
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-21 03:52:05 UTC
+# Total Rules: 5
+#
+.hecdn.net
+.heweather.net
+.qweather.com
+.qweather.net
+.qweatherapi.com
