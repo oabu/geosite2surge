@@ -1,0 +1,10 @@
+# Title: Surge RULE-SET - geosite:remnawave
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-28 04:38:52 UTC
+# Total Rules: 5
+#
+DOMAIN-SUFFIX,docs.rw
+DOMAIN-SUFFIX,log.rw
+DOMAIN-SUFFIX,remna.dev
+DOMAIN-SUFFIX,remna.st
+DOMAIN-SUFFIX,try.rw

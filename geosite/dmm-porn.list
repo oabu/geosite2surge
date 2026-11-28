@@ -1,0 +1,8 @@
+# Title: Surge RULE-SET - geosite:dmm-porn
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-28 04:38:52 UTC
+# Total Rules: 3
+#
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmmrex.com
+DOMAIN-SUFFIX,fanza.jp

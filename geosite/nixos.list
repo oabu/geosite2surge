@@ -1,0 +1,18 @@
+# Title: Surge RULE-SET - geosite:nixos
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-28 04:38:52 UTC
+# Total Rules: 13
+#
+DOMAIN-SUFFIX,builtwithnix.org
+DOMAIN-SUFFIX,cachix.org
+DOMAIN-SUFFIX,mynixos.com
+DOMAIN-SUFFIX,nix-community.org
+DOMAIN-SUFFIX,nix.dev
+DOMAIN-SUFFIX,nix.store
+DOMAIN-SUFFIX,nixcon.org
+DOMAIN-SUFFIX,nixcon2017.org
+DOMAIN-SUFFIX,nixlang.com
+DOMAIN-SUFFIX,nixos.org
+DOMAIN-SUFFIX,nixos.wiki
+DOMAIN-SUFFIX,nixpkgs.org
+DOMAIN,nix-community.github.io

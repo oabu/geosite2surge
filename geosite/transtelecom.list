@@ -1,0 +1,13 @@
+# Title: Surge RULE-SET - geosite:transtelecom
+# Source: Loyalsoldier/v2ray-rules-dat
+# Updated: 2026-11-28 04:38:52 UTC
+# Total Rules: 8
+#
+DOMAIN-SUFFIX,baikal-ttk.ru
+DOMAIN-SUFFIX,kttk.ru
+DOMAIN-SUFFIX,myttk.ru
+DOMAIN-SUFFIX,sakhttk.ru
+DOMAIN-SUFFIX,ttc-net.ru
+DOMAIN-SUFFIX,ttk.ru
+DOMAIN-SUFFIX,ttkdv.ru
+DOMAIN-SUFFIX,zsttk.net
